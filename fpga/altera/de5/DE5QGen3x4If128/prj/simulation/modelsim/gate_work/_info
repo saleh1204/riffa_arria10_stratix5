@@ -1,0 +1,53 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Saleh/Share1/riffa_arria10/fpga/altera/de5/DE5QGen3x4If128/prj/simulation/modelsim
+vrx_do_nothing_tx_channel
+Z1 !s110 1580808069
+!i10b 1
+!s100 DGjVX44CbERS9`m_009A_2
+IOX85_:BdK1oZ;_22m=bMm0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1580808016
+8DE5QGen3x4If128.vo
+FDE5QGen3x4If128.vo
+L0 31
+Z3 OV;L;10.6d;65
+r1
+!s85 0
+31
+!s108 1580808068.000000
+!s107 DE5QGen3x4If128.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|DE5QGen3x4If128.vo|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+Z4 tCvgOpt 0
+vrx_do_nothing_tx_channel_test
+R1
+!i10b 1
+!s100 nAHl:AP]AXFk``_C@>3>80
+I?b1Z1;HYWlLJ_c^g`]]F?0
+R2
+R0
+w1580807125
+8rx_do_nothing_tx_channel_test.vt
+Frx_do_nothing_tx_channel_test.vt
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1580808069.000000
+!s107 rx_do_nothing_tx_channel_test.vt|
+!s90 -reportprogress|300|-work|gate_work|rx_do_nothing_tx_channel_test.vt|
+!i113 1
+o-work gate_work
+R4

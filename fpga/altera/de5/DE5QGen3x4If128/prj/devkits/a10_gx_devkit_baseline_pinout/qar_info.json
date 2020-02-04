@@ -1,0 +1,6 @@
+{
+	"common_dir" : "/data/smeer/16.0/aria10_fpga_devkit/aria10_devkit_baseline/a10_gx_devkit_baseline_pinout/",
+	"acds_version" : "Version 16.0.0",
+	"platform" : "linux",
+	"os" : "Red Hat"
+}

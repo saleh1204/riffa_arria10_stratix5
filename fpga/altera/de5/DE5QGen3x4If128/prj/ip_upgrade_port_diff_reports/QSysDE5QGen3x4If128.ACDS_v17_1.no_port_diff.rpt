@@ -1,0 +1,23 @@
+IP Ports Diff Report for QSysDE5QGen3x4If128
+Sun Dec  8 16:00:47 2019
+Quartus Prime Version 17.1.0 Build 240 10/25/2017 SJ Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. IP Information
+
+
+
++------------------------------------------------------------------------------+
+; IP Information                                                               ;
++----------------------+-------------------------------------------------------+
+; IP Variation Name    ; QSysDE5QGen3x4If128                                   ;
+; Prior Version        ; ACDS_v17.1                                            ;
+; New Version          ; ACDS_v17.1                                            ;
+; New File             ; ../ip/QSysDE5QGen3x4If128/synth/QSysDE5QGen3x4If128.v ;
+; Has Port Differences ; No                                                    ;
++----------------------+-------------------------------------------------------+
+
+

@@ -1,0 +1,68 @@
+--altshift_taps CBX_DECLARE_ALL_CONNECTED_PORTS="OFF" DEVICE_FAMILY="Arria 10" NUMBER_OF_TAPS=1 POWER_UP_STATE="DONT_CARE" TAP_DISTANCE=4 WIDTH=1 clock shiftin taps ACF_BLOCK_RAM_AND_MLAB_EQUIVALENT_PAUSED_READ_CAPABILITIES="CARE" CARRY_CHAIN="MANUAL" CYCLONEII_M4K_COMPATIBILITY="ON" LOW_POWER_MODE="NONE"
+--VERSION_BEGIN 18.1 cbx_altdpram 2018:08:19:08:04:10:SJ cbx_altera_syncram 2018:08:19:08:04:10:SJ cbx_altera_syncram_nd_impl 2018:08:19:08:04:10:SJ cbx_altshift_taps 2018:08:19:08:04:10:SJ cbx_altshift_taps_counter 2018:08:19:08:04:10:SJ cbx_altsyncram 2018:08:19:08:04:10:SJ cbx_lpm_add_sub 2018:08:19:08:04:10:SJ cbx_lpm_compare 2018:08:19:08:04:10:SJ cbx_lpm_counter 2018:08:19:08:04:10:SJ cbx_lpm_decode 2018:08:19:08:04:10:SJ cbx_lpm_mux 2018:08:19:08:04:10:SJ cbx_mgl 2018:08:19:08:04:50:SJ cbx_nadder 2018:08:19:08:04:10:SJ cbx_stratix 2018:08:19:08:04:10:SJ cbx_stratixii 2018:08:19:08:04:10:SJ cbx_stratixiii 2018:08:19:08:04:10:SJ cbx_stratixv 2018:08:19:08:04:10:SJ cbx_util_mgl 2018:08:19:08:04:10:SJ  VERSION_END
+
+
+-- Copyright (C) 2018  Intel Corporation. All rights reserved.
+--  Your use of Intel Corporation's design tools, logic functions 
+--  and other software and tools, and its AMPP partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Intel Program License 
+--  Subscription Agreement, the Intel Quartus Prime License Agreement,
+--  the Intel FPGA IP License Agreement, or other applicable license
+--  agreement, including, without limitation, that your use is for
+--  the sole purpose of programming logic devices manufactured by
+--  Intel and sold by Intel or its authorized distributors.  Please
+--  refer to the applicable agreement for further details.
+
+
+FUNCTION altera_syncram_9f61 (address_a[1..0], address_b[1..0], clock0, clocken0, data_a[0..0], wren_a)
+RETURNS ( q_b[0..0]);
+FUNCTION altshift_taps_counter (aclear, clk, clock_enable, sclear, updown)
+WITH ( DIRECTION, MODULUS, WIDTH = 6)
+RETURNS ( count[WIDTH-1..0], cout);
+
+--synthesis_resources = altshift_taps_counter 1 lut 2 M20K 1 reg 2 
+SUBDESIGN shift_taps_vjs
+( 
+	clock	:	input;
+	shiftin[0..0]	:	input;
+	shiftout[0..0]	:	output;
+	taps[0..0]	:	output;
+) 
+VARIABLE 
+	altera_syncram4 : altera_syncram_9f61;
+	altshift_taps_counter1 : altshift_taps_counter
+		WITH (
+			DIRECTION = "UP",
+			WIDTH = 2
+		);
+	dffe3a[1..0] : dffe;
+	add_sub2_dataa[1..0]	:	WIRE;
+	add_sub2_datab[1..0]	:	WIRE;
+	add_sub2_result[1..0]	:	WIRE;
+	clken	: NODE;
+	rdaddress[1..0]	: WIRE;
+
+BEGIN 
+	altera_syncram4.address_a[] = altshift_taps_counter1.count[];
+	altera_syncram4.address_b[] = rdaddress[];
+	altera_syncram4.clock0 = clock;
+	altera_syncram4.clocken0 = clken;
+	altera_syncram4.data_a[] = ( shiftin[]);
+	altera_syncram4.wren_a = B"1";
+	altshift_taps_counter1.clk = clock;
+	altshift_taps_counter1.clock_enable = clken;
+	dffe3a[].clk = clock;
+	dffe3a[].d = ( (! add_sub2_result[1..1]), add_sub2_result[0..0]);
+	dffe3a[].ena = clken;
+	add_sub2_result[] = add_sub2_dataa[] + add_sub2_datab[];
+	add_sub2_dataa[] = altshift_taps_counter1.count[];
+	add_sub2_datab[] = B"11";
+	clken = VCC;
+	rdaddress[] = ( (! dffe3a[1..1].q), dffe3a[0..0].q);
+	shiftout[0..0] = altera_syncram4.q_b[0..0];
+	taps[] = altera_syncram4.q_b[];
+END;
+--VALID FILE

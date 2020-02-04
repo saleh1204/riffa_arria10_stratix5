@@ -1,0 +1,870 @@
+# do rx_do_nothing_tx_channel_rtl_sim.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work gate_work 
+# Copying C:/intelFPGA_pro/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# variable HDL_DIR "../../../hdl"
+# 
+# vlog -reportprogress 300 -work gate_work concat $HDL_DIR fifo.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:46:45 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work concat ../../../hdl fifo.v 
+# ** Error: (vlog-7) Failed to open design unit file "concat" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 11:46:46 on Feb 04,2020, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_pro/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./rx_do_nothing_tx_channel_rtl_sim.do line 9
+# C:/intelFPGA_pro/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work gate_work concat $HDL_DIR fifo.v"
+echo $HDL_DIR
+# ../../../hdl
+vlog -reportprogress 300 -work gate_work $HDL_DIR fifo.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:47:23 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl fifo.v 
+# ** Error: (vlog-2054) File "../../../hdl" is a directory.
+# End time: 11:47:23 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA_pro/18.1/modelsim_ase/win32aloem/vlog failed.
+vlog -reportprogress 300 -work gate_work $HDL_DIR.fifo.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:47:33 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl.fifo.v 
+# ** Error: (vlog-7) Failed to open design unit file "../../../hdl.fifo.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 11:47:33 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA_pro/18.1/modelsim_ase/win32aloem/vlog failed.
+vlog -reportprogress 300 -work gate_work $HDL_DIR/fifo.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:47:42 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/fifo.v 
+# -- Compiling module fifo1
+# 
+# Top level modules:
+# 	fifo1
+# End time: 11:47:42 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do rx_do_nothing_tx_channel_rtl_sim.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work gate_work 
+# Modifying modelsim.ini
+# variable HDL_DIR "../../../hdl"
+# 
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/fifo.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:48:09 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/fifo.v 
+# -- Compiling module fifo1
+# 
+# Top level modules:
+# 	fifo1
+# End time: 11:48:10 on Feb 04,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/rx_do_nothing_tx_channel.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:48:10 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/rx_do_nothing_tx_channel.v 
+# -- Compiling module rx_do_nothing_tx_channel
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel
+# End time: 11:48:10 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:48:10 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt 
+# -- Compiling module rx_do_nothing_tx_channel_test
+# ** Warning: rx_do_nothing_tx_channel_test.vt(137): (vlog-2252) Missing incrementer in "FOR" statement.
+# ** Error: rx_do_nothing_tx_channel_test.vt(153): (vlog-2730) Undefined variable: 'n1'.
+# ** Error: rx_do_nothing_tx_channel_test.vt(153): (vlog-2730) Undefined variable: 'n2'.
+# ** Error: rx_do_nothing_tx_channel_test.vt(153): (vlog-2730) Undefined variable: 'n3'.
+# End time: 11:48:10 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+# ** Error: C:/intelFPGA_pro/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./rx_do_nothing_tx_channel_rtl_sim.do line 11
+# C:/intelFPGA_pro/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt"
+do rx_do_nothing_tx_channel_rtl_sim.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work gate_work 
+# Modifying modelsim.ini
+# variable HDL_DIR "../../../hdl"
+# 
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/fifo.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:49:00 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/fifo.v 
+# -- Compiling module fifo1
+# 
+# Top level modules:
+# 	fifo1
+# End time: 11:49:00 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/rx_do_nothing_tx_channel.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:49:00 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/rx_do_nothing_tx_channel.v 
+# -- Compiling module rx_do_nothing_tx_channel
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel
+# End time: 11:49:00 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:49:01 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt 
+# -- Compiling module rx_do_nothing_tx_channel_test
+# ** Warning: rx_do_nothing_tx_channel_test.vt(137): (vlog-2252) Missing incrementer in "FOR" statement.
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel_test
+# End time: 11:49:01 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test 
+# Start time: 11:49:01 on Feb 04,2020
+# Loading work.rx_do_nothing_tx_channel_test
+# Loading work.rx_do_nothing_tx_channel
+# Loading work.fifo1
+# 
+###add wave *
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -format Logic -label CLK clk 
+# add wave -noupdate -format Logic -label RST reset 
+# add wave -noupdate -format Logic -label CHNL_RX chnl_rx 
+# add wave -noupdate -format Logic -label CHNL_RX_VALID chnl_rx_data_valid 
+# add wave -noupdate -format Literal -radix hex -label CHNL_RX_DATA chnl_rx_data 
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_RX_LEN chnl_rx_len
+# add wave -noupdate -format Logic -label CHNL_TX chnl_tx 
+# add wave -noupdate -format Logic -label CHNL_TX_ACK chnl_tx_ack
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_VALID chnl_tx_data_valid
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_REN chnl_tx_data_ren
+# add wave -noupdate -format Literal -radix hex -label CHNL_TX_DATA chnl_tx_data
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_TX_LEN chnl_tx_len
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals 
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench. 	 Opening Files: input_file.bin output_file.bin
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "input_file.bin" for reading.
+# No such file or directory. (errno = ENOENT)    : rx_do_nothing_tx_channel_test.vt(57)
+#    Time: 0 ps  Iteration: 0  Instance: /rx_do_nothing_tx_channel_test
+# File Open Error! input_file.bin
+# ** Note: $stop    : rx_do_nothing_tx_channel_test.vt(60)
+#    Time: 0 ps  Iteration: 0  Instance: /rx_do_nothing_tx_channel_test
+# Break in Module rx_do_nothing_tx_channel_test at rx_do_nothing_tx_channel_test.vt line 60
+do rx_do_nothing_tx_channel_rtl_sim.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/Saleh/Share1/riffa_arria10/fpga/altera/de5/DE5QGen3x4If128/prj/simulation/modelsim/gate_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/Saleh/Share1/riffa_arria10/fpga/altera/de5/DE5QGen3x4If128/prj/simulation/modelsim/gate_work".
+# vlib gate_work
+# ** Error: (vlib-35) Failed to create directory "gate_work".
+# File exists. (errno = EEXIST)
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work gate_work 
+# Modifying modelsim.ini
+# variable HDL_DIR "../../../hdl"
+# 
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/fifo.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:52:23 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/fifo.v 
+# -- Compiling module fifo1
+# 
+# Top level modules:
+# 	fifo1
+# End time: 11:52:23 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/rx_do_nothing_tx_channel.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:52:23 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/rx_do_nothing_tx_channel.v 
+# -- Compiling module rx_do_nothing_tx_channel
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel
+# End time: 11:52:23 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:52:23 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt 
+# -- Compiling module rx_do_nothing_tx_channel_test
+# ** Warning: rx_do_nothing_tx_channel_test.vt(137): (vlog-2252) Missing incrementer in "FOR" statement.
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel_test
+# End time: 11:52:23 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test
+# End time: 11:52:25 on Feb 04,2020, Elapsed time: 0:03:24
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test 
+# Start time: 11:52:25 on Feb 04,2020
+# Loading work.rx_do_nothing_tx_channel_test
+# Loading work.rx_do_nothing_tx_channel
+# Loading work.fifo1
+# 
+###add wave *
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -format Logic -label CLK clk 
+# add wave -noupdate -format Logic -label RST reset 
+# add wave -noupdate -format Logic -label CHNL_RX chnl_rx 
+# add wave -noupdate -format Logic -label CHNL_RX_VALID chnl_rx_data_valid 
+# add wave -noupdate -format Literal -radix hex -label CHNL_RX_DATA chnl_rx_data 
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_RX_LEN chnl_rx_len
+# add wave -noupdate -format Logic -label CHNL_TX chnl_tx 
+# add wave -noupdate -format Logic -label CHNL_TX_ACK chnl_tx_ack
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_VALID chnl_tx_data_valid
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_REN chnl_tx_data_ren
+# add wave -noupdate -format Literal -radix hex -label CHNL_TX_DATA chnl_tx_data
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_TX_LEN chnl_tx_len
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals 
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench. 	 Opening Files: input_file.bin output_file.bin
+# Current Time:                  200
+# Test # 0: Fail
+# ** Note: $stop    : rx_do_nothing_tx_channel_test.vt(124)
+#    Time: 360 ns  Iteration: 0  Instance: /rx_do_nothing_tx_channel_test
+# Break in Module rx_do_nothing_tx_channel_test at rx_do_nothing_tx_channel_test.vt line 124
+add wave -position end  sim:/rx_do_nothing_tx_channel_test/c1/CHNL_RX_DATA
+do rx_do_nothing_tx_channel_rtl_sim.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work gate_work 
+# Modifying modelsim.ini
+# variable HDL_DIR "../../../hdl"
+# 
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/fifo.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:57:00 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/fifo.v 
+# -- Compiling module fifo1
+# 
+# Top level modules:
+# 	fifo1
+# End time: 11:57:00 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/rx_do_nothing_tx_channel.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:57:00 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/rx_do_nothing_tx_channel.v 
+# -- Compiling module rx_do_nothing_tx_channel
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel
+# End time: 11:57:00 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:57:00 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt 
+# -- Compiling module rx_do_nothing_tx_channel_test
+# ** Warning: rx_do_nothing_tx_channel_test.vt(137): (vlog-2252) Missing incrementer in "FOR" statement.
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel_test
+# End time: 11:57:00 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test
+# End time: 11:57:03 on Feb 04,2020, Elapsed time: 0:04:38
+# Errors: 0, Warnings: 1
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test 
+# Start time: 11:57:03 on Feb 04,2020
+# Loading work.rx_do_nothing_tx_channel_test
+# Loading work.rx_do_nothing_tx_channel
+# Loading work.fifo1
+# 
+###add wave *
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -format Logic -label CLK clk 
+# add wave -noupdate -format Logic -label RST reset 
+# add wave -noupdate -format Logic -label CHNL_RX chnl_rx 
+# add wave -noupdate -format Logic -label CHNL_RX_VALID chnl_rx_data_valid 
+# add wave -noupdate -format Literal -radix hex -label CHNL_RX_DATA chnl_rx_data 
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_RX_LEN chnl_rx_len
+# add wave -noupdate -format Logic -label CHNL_TX chnl_tx 
+# add wave -noupdate -format Logic -label CHNL_TX_ACK chnl_tx_ack
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_VALID chnl_tx_data_valid
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_REN chnl_tx_data_ren
+# add wave -noupdate -format Literal -radix hex -label CHNL_TX_DATA chnl_tx_data
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_TX_LEN chnl_tx_len
+# add wave -noupdate -format Logic -label push_r c1/push_r
+# add wave -noupdate -format Logic -label pop_r c1/pop_r
+# add wave -noupdate -format Logic -label push_s c1/push_s
+# add wave -noupdate -format Logic -label pop_s c1/pop_s
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals 
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench. 	 Opening Files: input_file.bin output_file.bin
+# Current Time:                  200
+# Test # 0: Fail
+# ** Note: $stop    : rx_do_nothing_tx_channel_test.vt(124)
+#    Time: 360 ns  Iteration: 0  Instance: /rx_do_nothing_tx_channel_test
+# Break in Module rx_do_nothing_tx_channel_test at rx_do_nothing_tx_channel_test.vt line 124
+do rx_do_nothing_tx_channel_rtl_sim.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work gate_work 
+# Modifying modelsim.ini
+# variable HDL_DIR "../../../hdl"
+# 
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/fifo.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:00:13 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/fifo.v 
+# -- Compiling module fifo1
+# 
+# Top level modules:
+# 	fifo1
+# End time: 12:00:13 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/rx_do_nothing_tx_channel.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:00:14 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/rx_do_nothing_tx_channel.v 
+# -- Compiling module rx_do_nothing_tx_channel
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel
+# End time: 12:00:14 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:00:14 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt 
+# -- Compiling module rx_do_nothing_tx_channel_test
+# ** Warning: rx_do_nothing_tx_channel_test.vt(137): (vlog-2252) Missing incrementer in "FOR" statement.
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel_test
+# End time: 12:00:14 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test
+# End time: 12:00:16 on Feb 04,2020, Elapsed time: 0:03:13
+# Errors: 0, Warnings: 1
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test 
+# Start time: 12:00:16 on Feb 04,2020
+# Loading work.rx_do_nothing_tx_channel_test
+# Loading work.rx_do_nothing_tx_channel
+# Loading work.fifo1
+# 
+###add wave *
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -format Logic -label CLK clk 
+# add wave -noupdate -format Logic -label RST reset 
+# add wave -noupdate -format Logic -label CHNL_RX chnl_rx 
+# add wave -noupdate -format Logic -label CHNL_RX_VALID chnl_rx_data_valid 
+# add wave -noupdate -format Literal -radix hex -label CHNL_RX_DATA chnl_rx_data 
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_RX_LEN chnl_rx_len
+# add wave -noupdate -format Logic -label CHNL_TX chnl_tx 
+# add wave -noupdate -format Logic -label CHNL_TX_ACK chnl_tx_ack
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_VALID chnl_tx_data_valid
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_REN chnl_tx_data_ren
+# add wave -noupdate -format Literal -radix hex -label CHNL_TX_DATA chnl_tx_data
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_TX_LEN chnl_tx_len
+# add wave -noupdate -format Logic -label push_r c1/push_r
+# add wave -noupdate -format Logic -label pop_r c1/pop_r
+# add wave -noupdate -format Logic -label push_s c1/push_s
+# add wave -noupdate -format Logic -label pop_s c1/pop_s
+# add wave -noupdate -format Literal -radix hex -label rDout c1/rDout
+# add wave -noupdate -format Literal -radix hex -label sDin c1/sDin
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals 
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench. 	 Opening Files: input_file.bin output_file.bin
+# Current Time:                  200
+# Test # 0: Fail
+# ** Note: $stop    : rx_do_nothing_tx_channel_test.vt(124)
+#    Time: 360 ns  Iteration: 0  Instance: /rx_do_nothing_tx_channel_test
+# Break in Module rx_do_nothing_tx_channel_test at rx_do_nothing_tx_channel_test.vt line 124
+do rx_do_nothing_tx_channel_rtl_sim.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work gate_work 
+# Modifying modelsim.ini
+# variable HDL_DIR "../../../hdl"
+# 
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/fifo.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:01:37 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/fifo.v 
+# -- Compiling module fifo1
+# 
+# Top level modules:
+# 	fifo1
+# End time: 12:01:37 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/rx_do_nothing_tx_channel.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:01:37 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/rx_do_nothing_tx_channel.v 
+# -- Compiling module rx_do_nothing_tx_channel
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel
+# End time: 12:01:37 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:01:37 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt 
+# -- Compiling module rx_do_nothing_tx_channel_test
+# ** Error: rx_do_nothing_tx_channel_test.vt(113): (vlog-2730) Undefined variable: 'expected_output_reorded'.
+# ** Warning: rx_do_nothing_tx_channel_test.vt(133): (vlog-2252) Missing incrementer in "FOR" statement.
+# End time: 12:01:37 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# ** Error: C:/intelFPGA_pro/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./rx_do_nothing_tx_channel_rtl_sim.do line 11
+# C:/intelFPGA_pro/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt"
+do rx_do_nothing_tx_channel_rtl_sim.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work gate_work 
+# Modifying modelsim.ini
+# variable HDL_DIR "../../../hdl"
+# 
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/fifo.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:01:57 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/fifo.v 
+# -- Compiling module fifo1
+# 
+# Top level modules:
+# 	fifo1
+# End time: 12:01:57 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/rx_do_nothing_tx_channel.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:01:58 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/rx_do_nothing_tx_channel.v 
+# -- Compiling module rx_do_nothing_tx_channel
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel
+# End time: 12:01:58 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:01:58 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt 
+# -- Compiling module rx_do_nothing_tx_channel_test
+# ** Warning: rx_do_nothing_tx_channel_test.vt(133): (vlog-2252) Missing incrementer in "FOR" statement.
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel_test
+# End time: 12:01:58 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test
+# End time: 12:02:05 on Feb 04,2020, Elapsed time: 0:01:49
+# Errors: 4, Warnings: 2
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test 
+# Start time: 12:02:05 on Feb 04,2020
+# Loading work.rx_do_nothing_tx_channel_test
+# Loading work.rx_do_nothing_tx_channel
+# Loading work.fifo1
+# 
+###add wave *
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -format Logic -label CLK clk 
+# add wave -noupdate -format Logic -label RST reset 
+# add wave -noupdate -format Logic -label CHNL_RX chnl_rx 
+# add wave -noupdate -format Logic -label CHNL_RX_VALID chnl_rx_data_valid 
+# add wave -noupdate -format Literal -radix hex -label CHNL_RX_DATA chnl_rx_data 
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_RX_LEN chnl_rx_len
+# add wave -noupdate -format Logic -label CHNL_TX chnl_tx 
+# add wave -noupdate -format Logic -label CHNL_TX_ACK chnl_tx_ack
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_VALID chnl_tx_data_valid
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_REN chnl_tx_data_ren
+# add wave -noupdate -format Literal -radix hex -label CHNL_TX_DATA chnl_tx_data
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_TX_LEN chnl_tx_len
+# add wave -noupdate -format Logic -label push_r c1/push_r
+# add wave -noupdate -format Logic -label pop_r c1/pop_r
+# add wave -noupdate -format Logic -label push_s c1/push_s
+# add wave -noupdate -format Logic -label pop_s c1/pop_s
+# add wave -noupdate -format Literal -radix hex -label rDout c1/rDout
+# add wave -noupdate -format Literal -radix hex -label sDin c1/sDin
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals 
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench. 	 Opening Files: input_file.bin output_file.bin
+# Current Time:                  200
+# Test # 0: Pass
+# 	Expected Output: 2291aaa10209b791241390ec6c948e50
+# Current Time:                  260
+# Test # 1: Pass
+# 	Expected Output: 26dc4492dd6582a28e2725a6be8b0165
+# Current Time:                  320
+# Test # 2: Pass
+# 	Expected Output: 5c44517f8d9f7d1eab1516f72c2a68e7
+# Current Time:                  380
+# Test # 3: Pass
+# 	Expected Output: 3ee0f77b335ac22323663cef570a2f0c
+# Current Time:                  440
+# Test # 4: Pass
+# 	Expected Output: 5f561a61e813aa08b30866834ff6b8d8
+# Finished @                  700
+# Test Passed 5 out of 5
+# ** Note: $stop    : rx_do_nothing_tx_channel_test.vt(163)
+#    Time: 700 ns  Iteration: 0  Instance: /rx_do_nothing_tx_channel_test
+# Break in Module rx_do_nothing_tx_channel_test at rx_do_nothing_tx_channel_test.vt line 163
+do rx_do_nothing_tx_channel_rtl_sim.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/Saleh/Share1/riffa_arria10/fpga/altera/de5/DE5QGen3x4If128/prj/simulation/modelsim/gate_work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/Saleh/Share1/riffa_arria10/fpga/altera/de5/DE5QGen3x4If128/prj/simulation/modelsim/gate_work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/Saleh/Share1/riffa_arria10/fpga/altera/de5/DE5QGen3x4If128/prj/simulation/modelsim/gate_work".
+# vlib gate_work
+# ** Error: (vlib-35) Failed to create directory "gate_work".
+# File exists. (errno = EEXIST)
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work gate_work 
+# Modifying modelsim.ini
+# variable HDL_DIR "../../../hdl"
+# 
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/fifo.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:04:10 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/fifo.v 
+# -- Compiling module fifo1
+# 
+# Top level modules:
+# 	fifo1
+# End time: 12:04:10 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/rx_do_nothing_tx_channel.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:04:10 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/rx_do_nothing_tx_channel.v 
+# -- Compiling module rx_do_nothing_tx_channel
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel
+# End time: 12:04:10 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:04:10 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt 
+# -- Compiling module rx_do_nothing_tx_channel_test
+# ** Warning: rx_do_nothing_tx_channel_test.vt(133): (vlog-2252) Missing incrementer in "FOR" statement.
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel_test
+# End time: 12:04:10 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test
+# End time: 12:04:12 on Feb 04,2020, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 1
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test 
+# Start time: 12:04:12 on Feb 04,2020
+# Loading work.rx_do_nothing_tx_channel_test
+# Loading work.rx_do_nothing_tx_channel
+# Loading work.fifo1
+# 
+###add wave *
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -format Logic -label CLK clk 
+# add wave -noupdate -format Logic -label RST reset 
+# add wave -noupdate -format Logic -label CHNL_RX chnl_rx 
+# add wave -noupdate -format Logic -label CHNL_RX_VALID chnl_rx_data_valid 
+# add wave -noupdate -format Literal -radix hex -label CHNL_RX_DATA chnl_rx_data 
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_RX_LEN chnl_rx_len
+# add wave -noupdate -format Logic -label CHNL_TX chnl_tx 
+# add wave -noupdate -format Logic -label CHNL_TX_ACK chnl_tx_ack
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_VALID chnl_tx_data_valid
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_REN chnl_tx_data_ren
+# add wave -noupdate -format Literal -radix hex -label CHNL_TX_DATA chnl_tx_data
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_TX_LEN chnl_tx_len
+#add wave -noupdate -format Logic -label push_r c1/push_r
+#add wave -noupdate -format Logic -label pop_r c1/pop_r
+#add wave -noupdate -format Logic -label push_s c1/push_s
+#add wave -noupdate -format Logic -label pop_s c1/pop_s
+#add wave -noupdate -format Literal -radix hex -label rDout c1/rDout
+#add wave -noupdate -format Literal -radix hex -label sDin c1/sDin
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals 
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench. 	 Opening Files: input_file.bin output_file.bin
+# Current Time:                  200
+# Test # 0: Pass
+# 	Expected Output: 2291aaa10209b791241390ec6c948e50
+# Current Time:                  260
+# Test # 1: Pass
+# 	Expected Output: 26dc4492dd6582a28e2725a6be8b0165
+# Current Time:                  320
+# Test # 2: Pass
+# 	Expected Output: 5c44517f8d9f7d1eab1516f72c2a68e7
+# Current Time:                  380
+# Test # 3: Pass
+# 	Expected Output: 3ee0f77b335ac22323663cef570a2f0c
+# Current Time:                  440
+# Test # 4: Pass
+# 	Expected Output: 5f561a61e813aa08b30866834ff6b8d8
+# Finished @                  700
+# Test Passed 5 out of 5
+# ** Note: $stop    : rx_do_nothing_tx_channel_test.vt(163)
+#    Time: 700 ns  Iteration: 0  Instance: /rx_do_nothing_tx_channel_test
+# Break in Module rx_do_nothing_tx_channel_test at rx_do_nothing_tx_channel_test.vt line 163
+do rx_do_nothing_tx_channel_rtl_sim.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work gate_work 
+# Modifying modelsim.ini
+# variable HDL_DIR "../../../hdl"
+# 
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/fifo.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:05:33 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/fifo.v 
+# -- Compiling module fifo1
+# 
+# Top level modules:
+# 	fifo1
+# End time: 12:05:33 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work $HDL_DIR/rx_do_nothing_tx_channel.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:05:33 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work ../../../hdl/rx_do_nothing_tx_channel.v 
+# -- Compiling module rx_do_nothing_tx_channel
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel
+# End time: 12:05:34 on Feb 04,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:05:34 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt 
+# -- Compiling module rx_do_nothing_tx_channel_test
+# ** Warning: rx_do_nothing_tx_channel_test.vt(133): (vlog-2252) Missing incrementer in "FOR" statement.
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel_test
+# End time: 12:05:34 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test
+# End time: 12:05:46 on Feb 04,2020, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 1
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test 
+# Start time: 12:05:48 on Feb 04,2020
+# Loading work.rx_do_nothing_tx_channel_test
+# Loading work.rx_do_nothing_tx_channel
+# Loading work.fifo1
+# 
+###add wave *
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -format Logic -label CLK clk 
+# add wave -noupdate -format Logic -label RST reset 
+# add wave -noupdate -format Logic -label CHNL_RX chnl_rx 
+# add wave -noupdate -format Logic -label CHNL_RX_VALID chnl_rx_data_valid 
+# add wave -noupdate -format Literal -radix hex -label CHNL_RX_DATA chnl_rx_data 
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_RX_LEN chnl_rx_len
+# add wave -noupdate -format Logic -label CHNL_TX chnl_tx 
+# add wave -noupdate -format Logic -label CHNL_TX_ACK chnl_tx_ack
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_VALID chnl_tx_data_valid
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_REN chnl_tx_data_ren
+# add wave -noupdate -format Literal -radix hex -label CHNL_TX_DATA chnl_tx_data
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_TX_LEN chnl_tx_len
+#add wave -noupdate -format Logic -label push_r c1/push_r
+#add wave -noupdate -format Logic -label pop_r c1/pop_r
+#add wave -noupdate -format Logic -label push_s c1/push_s
+#add wave -noupdate -format Logic -label pop_s c1/pop_s
+#add wave -noupdate -format Literal -radix hex -label rDout c1/rDout
+#add wave -noupdate -format Literal -radix hex -label sDin c1/sDin
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals 
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench. 	 Opening Files: input_file.bin output_file.bin
+# Current Time:                  180
+# Test # 0: Pass
+# 	Expected Output: 2291aaa10209b791241390ec6c948e50
+# Current Time:                  220
+# Test # 1: Pass
+# 	Expected Output: 26dc4492dd6582a28e2725a6be8b0165
+# Current Time:                  260
+# Test # 2: Pass
+# 	Expected Output: 5c44517f8d9f7d1eab1516f72c2a68e7
+# Current Time:                  300
+# Test # 3: Pass
+# 	Expected Output: 3ee0f77b335ac22323663cef570a2f0c
+# Current Time:                  340
+# Test # 4: Pass
+# 	Expected Output: 5f561a61e813aa08b30866834ff6b8d8
+# Finished @                  580
+# Test Passed 5 out of 5
+# ** Note: $stop    : rx_do_nothing_tx_channel_test.vt(163)
+#    Time: 580 ns  Iteration: 0  Instance: /rx_do_nothing_tx_channel_test
+# Break in Module rx_do_nothing_tx_channel_test at rx_do_nothing_tx_channel_test.vt line 163
+do rx_do_nothing_tx_channel_gate_level_sim.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/Saleh/Share1/riffa_arria10/fpga/altera/de5/DE5QGen3x4If128/prj/simulation/modelsim/gate_work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/Saleh/Share1/riffa_arria10/fpga/altera/de5/DE5QGen3x4If128/prj/simulation/modelsim/gate_work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/Saleh/Share1/riffa_arria10/fpga/altera/de5/DE5QGen3x4If128/prj/simulation/modelsim/gate_work".
+# vlib gate_work
+# ** Error: (vlib-35) Failed to create directory "gate_work".
+# File exists. (errno = EEXIST)
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work gate_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {DE5QGen3x4If128.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:21:08 on Feb 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." DE5QGen3x4If128.vo 
+# -- Compiling module rx_do_nothing_tx_channel
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel
+# End time: 12:21:09 on Feb 04,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 12:21:09 on Feb 04,2020
+# vlog -reportprogress 300 -work gate_work rx_do_nothing_tx_channel_test.vt 
+# -- Compiling module rx_do_nothing_tx_channel_test
+# ** Warning: rx_do_nothing_tx_channel_test.vt(133): (vlog-2252) Missing incrementer in "FOR" statement.
+# 
+# Top level modules:
+# 	rx_do_nothing_tx_channel_test
+# End time: 12:21:09 on Feb 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test
+# End time: 12:21:14 on Feb 04,2020, Elapsed time: 0:15:26
+# Errors: 0, Warnings: 1
+# vsim -t 1ps -L work -L twentynm_ver -L altera_ver -L altera_lnsim_ver -L lpm_ver -L altera_mf_ver work.rx_do_nothing_tx_channel_test 
+# Start time: 12:21:15 on Feb 04,2020
+# Loading work.rx_do_nothing_tx_channel_test
+# Loading work.rx_do_nothing_tx_channel
+# Loading twentynm_ver.twentynm_io_obuf
+# Loading twentynm_ver.twentynm_io_ibuf
+# Loading twentynm_ver.twentynm_clkena
+# Loading twentynm_ver.twentynm_lcell_comb
+# Loading altera_ver.dffeas
+# Loading twentynm_ver.twentynm_ram_block
+# Loading sv_std.std
+# Loading altera_lnsim_ver.generic_m20k
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.common_28nm_ram_block
+# Loading altera_lnsim_ver.common_28nm_ram_register
+# Loading altera_lnsim_ver.common_28nm_ram_pulse_generator
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: Design size of 19686 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# 
+###add wave *
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -format Logic -label CLK clk 
+# add wave -noupdate -format Logic -label RST reset 
+# add wave -noupdate -format Logic -label CHNL_RX chnl_rx 
+# add wave -noupdate -format Logic -label CHNL_RX_VALID chnl_rx_data_valid 
+# add wave -noupdate -format Literal -radix hex -label CHNL_RX_DATA chnl_rx_data 
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_RX_LEN chnl_rx_len
+# add wave -noupdate -format Logic -label CHNL_TX chnl_tx 
+# add wave -noupdate -format Logic -label CHNL_TX_ACK chnl_tx_ack
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_VALID chnl_tx_data_valid
+# add wave -noupdate -format Logic -label CHNL_TX_DATA_REN chnl_tx_data_ren
+# add wave -noupdate -format Literal -radix hex -label CHNL_TX_DATA chnl_tx_data
+# add wave -noupdate -format Literal -radix unsigned -label CHNL_TX_LEN chnl_tx_len
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals 
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench. 	 Opening Files: input_file.bin output_file.bin
+# Current Time:                  180
+# Test # 0: Pass
+# 	Expected Output: 2291aaa10209b791241390ec6c948e50
+# Current Time:                  220
+# Test # 1: Pass
+# 	Expected Output: 26dc4492dd6582a28e2725a6be8b0165
+# Current Time:                  260
+# Test # 2: Pass
+# 	Expected Output: 5c44517f8d9f7d1eab1516f72c2a68e7
+# Current Time:                  300
+# Test # 3: Pass
+# 	Expected Output: 3ee0f77b335ac22323663cef570a2f0c
+# Current Time:                  340
+# Test # 4: Pass
+# 	Expected Output: 5f561a61e813aa08b30866834ff6b8d8
+# Finished @                  580
+# Test Passed 5 out of 5
+# ** Note: $stop    : rx_do_nothing_tx_channel_test.vt(163)
+#    Time: 580 ns  Iteration: 0  Instance: /rx_do_nothing_tx_channel_test
+# Break in Module rx_do_nothing_tx_channel_test at rx_do_nothing_tx_channel_test.vt line 163
+# End time: 12:22:01 on Feb 04,2020, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 1

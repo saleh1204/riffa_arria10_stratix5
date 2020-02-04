@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <window width="1922" height="1040" x="-1" y="43" />
+ <generation path="" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="31" />
+   <inputclock preferredWidth="224" />
+  </columns>
+ </systemtable>
+</preferences>
