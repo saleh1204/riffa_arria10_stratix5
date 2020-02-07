@@ -1,0 +1,74 @@
+--lpm_add_sub CARRY_CHAIN="MANUAL" CARRY_CHAIN_LENGTH=48 DEVICE_FAMILY="Stratix V" LPM_PIPELINE=1 LPM_WIDTH=4 aclr add_sub clken clock dataa(gnd) datab result
+--VERSION_BEGIN 18.1 cbx_cycloneii 2018:09:12:13:04:24:SJ cbx_lpm_add_sub 2018:09:12:13:04:24:SJ cbx_mgl 2018:09:12:13:10:36:SJ cbx_nadder 2018:09:12:13:04:24:SJ cbx_stratix 2018:09:12:13:04:24:SJ cbx_stratixii 2018:09:12:13:04:24:SJ  VERSION_END
+
+
+-- Copyright (C) 2018  Intel Corporation. All rights reserved.
+--  Your use of Intel Corporation's design tools, logic functions 
+--  and other software and tools, and its AMPP partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Intel Program License 
+--  Subscription Agreement, the Intel Quartus Prime License Agreement,
+--  the Intel FPGA IP License Agreement, or other applicable license
+--  agreement, including, without limitation, that your use is for
+--  the sole purpose of programming logic devices manufactured by
+--  Intel and sold by Intel or its authorized distributors.  Please
+--  refer to the applicable agreement for further details.
+
+
+FUNCTION stratixv_lcell_comb (cin, dataa, datab, datac, datad, datae, dataf, datag, sharein)
+WITH ( DONT_TOUCH, EXTENDED_LUT, LUT_MASK, SHARED_ARITH)
+RETURNS ( combout, cout, shareout, sumout);
+
+--synthesis_resources = lut 4 reg 4 
+SUBDESIGN add_sub_iae
+( 
+	aclr	:	input;
+	add_sub	:	input;
+	clken	:	input;
+	clock	:	input;
+	dataa[3..0]	:	input;
+	datab[3..0]	:	input;
+	result[3..0]	:	output;
+) 
+VARIABLE 
+	dffe1 : dffe;
+	dffe2 : dffe;
+	dffe3 : dffe;
+	dffe4 : dffe;
+	add_sub_cella[3..0] : stratixv_lcell_comb
+		WITH (
+			EXTENDED_LUT = "off",
+			LUT_MASK = "00000FF00000FF00",
+			SHARED_ARITH = "off"
+		);
+	const_node_dataa[3..0]	: NODE;
+	lsb_cin_wire[0..0]	: WIRE;
+
+BEGIN 
+	dffe1.clk = clock;
+	dffe1.clrn = (! aclr);
+	dffe1.d = add_sub_cella[0].sumout;
+	dffe1.ena = clken;
+	dffe2.clk = clock;
+	dffe2.clrn = (! aclr);
+	dffe2.d = add_sub_cella[1].sumout;
+	dffe2.ena = clken;
+	dffe3.clk = clock;
+	dffe3.clrn = (! aclr);
+	dffe3.d = add_sub_cella[2].sumout;
+	dffe3.ena = clken;
+	dffe4.clk = clock;
+	dffe4.clrn = (! aclr);
+	dffe4.d = add_sub_cella[3].sumout;
+	dffe4.ena = clken;
+	add_sub_cella[].cin = ( add_sub_cella[2..0].cout, lsb_cin_wire[]);
+	add_sub_cella[].datac = add_sub;
+	add_sub_cella[].datad = dataa[];
+	add_sub_cella[].dataf = datab[];
+	const_node_dataa[] = dataa[];
+	lsb_cin_wire[] = (! add_sub);
+	result[] = ( dffe4.q, dffe3.q, dffe2.q, dffe1.q);
+END;
+--VALID FILE

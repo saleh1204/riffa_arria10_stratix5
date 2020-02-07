@@ -1,0 +1,759 @@
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../QSysDE5QGen3x4If128.sopcinfo"]
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name SLD_INFO "QSYS_NAME QSysDE5QGen3x4If128 HAS_SOPCINFO 1 GENERATION_ID 1581105915"
+set_global_assignment -library "QSysDE5QGen3x4If128" -name MISC_FILE [file join $::quartus(qip_path) "../QSysDE5QGen3x4If128.cmp"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SLD_FILE [file join $::quartus(qip_path) "QSysDE5QGen3x4If128.debuginfo"]
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_TARGETED_DEVICE_FAMILY "Stratix V"
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_GENERATED_DEVICE_FAMILY "{Stratix V}"
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_QSYS_MODE "SYSTEM"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "QSysDE5QGen3x4If128" -name MISC_FILE [file join $::quartus(qip_path) "../../QSysDE5QGen3x4If128.qsys"]
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_NAME "UVN5c0RFNVFHZW4zeDRJZjEyOA=="
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_DISPLAY_NAME "UVN5c0RFNVFHZW4zeDRJZjEyOA=="
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTU4MTEwNTkxNQ==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::U3RyYXRpeCBW::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::NVNHU01ENUsyRjQwQzI=::QXV0byBERVZJQ0U="
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Ml9IMg==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19NR01UQ0xLX0NMT0NLX1JBVEU=::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19NR01UQ0xLX0NMT0NLX0RPTUFJTg==::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19NR01UQ0xLX1JFU0VUX0RPTUFJTg==::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19QQ0lFUExEX0NMT0NLX1JBVEU=::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19QQ0lFUExEX0NMT0NLX0RPTUFJTg==::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19QQ0lFUExEX1JFU0VUX0RPTUFJTg==::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19QQ0lFUkVGQ0xLX0NMT0NLX1JBVEU=::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19QQ0lFUkVGQ0xLX0NMT0NLX0RPTUFJTg==::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19QQ0lFUkVGQ0xLX1JFU0VUX0RPTUFJTg==::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19SRUNPTkZJR1BMRENMS19DTE9DS19SQVRF::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19SRUNPTkZJR1BMRENMS19DTE9DS19ET01BSU4=::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19SRUNPTkZJR1BMRENMS19SRVNFVF9ET01BSU4=::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19SRUNPTkZJR1JFRkNMS19DTE9DS19SQVRF::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19SRUNPTkZJR1JFRkNMS19DTE9DS19ET01BSU4=::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "QSysDE5QGen3x4If128" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QVVUT19SRUNPTkZJR1JFRkNMS19SRVNFVF9ET01BSU4=::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+set_global_assignment -entity "altpcie_reconfig_driver" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_NAME "YWx0cGNpZV9yZWNvbmZpZ19kcml2ZXI="
+set_global_assignment -entity "altpcie_reconfig_driver" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_DISPLAY_NAME "UENJZSBSZWNvbmZpZyBEcml2ZXIgSW50ZWwgRlBHQSBJUA=="
+set_global_assignment -entity "altpcie_reconfig_driver" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altpcie_reconfig_driver" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "altpcie_reconfig_driver" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_AUTHOR "QWx0ZXJh"
+set_global_assignment -entity "altpcie_reconfig_driver" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_VERSION "MTguMQ=="
+set_global_assignment -entity "altpcie_reconfig_driver" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_DESCRIPTION "RHJpdmUgdGhlIHJlY29uZmlnX21nbXQgQXZNTSBTbGF2ZSBQb3J0IG9uIHRoZSBSZWNvbmZpZyBDb250cm9sbGVy"
+set_global_assignment -entity "altpcie_reconfig_driver" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "SU5URU5ERURfREVWSUNFX0ZBTUlMWQ==::U3RyYXRpeCBW::SU5URU5ERURfREVWSUNFX0ZBTUlMWQ=="
+set_global_assignment -entity "altpcie_reconfig_driver" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuMTIzX2xhbmVfcmF0ZV9tb2RlX2h3dGNs::R2VuMyAoOC4wIEdicHMp::TGFuZSBSYXRl"
+set_global_assignment -entity "altpcie_reconfig_driver" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bnVtYmVyX29mX3JlY29uZmlnX2ludGVyZmFjZXM=::Ng==::TnVtYmVyIG9mIHJlY29uZmlndXJhdGlvbiBpbnRlcmZhY2Vz"
+set_global_assignment -entity "altpcie_reconfig_driver" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2NhbF9idXN5X2h3dGNs::MA==::QWRkIGNhbF9idXN5X2luIG91dHB1dCBwb3J0IGNvbmR1aXQ="
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_NAME "YWx0X3hjdnJfcmVjb25maWc="
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_DISPLAY_NAME "VHJhbnNjZWl2ZXIgUmVjb25maWd1cmF0aW9uIENvbnRyb2xsZXIgSW50ZWwgRlBHQSBJUA=="
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_VERSION "MTguMQ=="
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_DESCRIPTION "VHJhbnNjZWl2ZXIgUmVjb25maWd1cmF0aW9uIENvbnRyb2xsZXIgaXMgdXNlZCB0byBkeW5hbWljYWxseSBjYWxpYnJhdGUgYW5kIHJlY29uZmlndXJlIGZlYXR1cmVzIG9mIFBIWSBJUCBjb3Jlcw=="
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bnVtYmVyX29mX3JlY29uZmlnX2ludGVyZmFjZXM=::Ng==::TnVtYmVyIG9mIHJlY29uZmlndXJhdGlvbiBpbnRlcmZhY2Vz"
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2RjZA==::MA==::RW5hYmxlIGR1dHkgY3ljbGUgY2FsaWJyYXRpb24="
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2RjZF9wb3dlcl91cA==::MQ==::Q2FsaWJyYXRlIGR1dHkgY3ljbGUgZHVyaW5nIHBvd2VyIHVw"
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2FuYWxvZw==::MQ==::RW5hYmxlIEFuYWxvZyBjb250cm9scw=="
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2V5ZW1vbg==::MA==::RW5hYmxlIEV5ZVEgYmxvY2s="
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2Jlcg==::MA==::RW5hYmxlIEJpdCBFcnJvciBSYXRlIEJsb2Nr"
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2RmZQ==::MA==::RW5hYmxlIGRlY2lzaW9uIGZlZWRiYWNrIGVxdWFsaXplciAoREZFKSBibG9jaw=="
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2FkY2U=::MQ==::RW5hYmxlIGFkYXB0aXZlIGVxdWFsaXphdGlvbiAoQUVRKSBibG9jaw=="
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX21pZg==::MA==::RW5hYmxlIGNoYW5uZWwvUExMIHJlY29uZmlndXJhdGlvbg=="
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z3VpX2VuYWJsZV9wbGw=::MA==::RW5hYmxlIFBMTCByZWNvbmZpZ3VyYXRpb24gc3VwcG9ydCBibG9jaw=="
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z3VpX2NhbF9zdGF0dXNfcG9ydA==::ZmFsc2U=::Q3JlYXRlIG9wdGlvbmFsIGNhbGlicmF0aW9uIHN0YXR1cyBwb3J0cw=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_NAME "YWx0cGNpZV9zdl9oaXBfYXN0X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_DISPLAY_NAME "U3RyYXRpeCBWIEhhcmQgSVAgZm9yIFBDSSBFeHByZXNzIEludGVsIEZQR0EgSVA="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_VERSION "MTguMQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_DESCRIPTION "U3RyYXRpeCBWIEhhcmQgSVAgZm9yIFBDSSBFeHByZXNzIEludGVsIEZQR0EgSVA="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZGVzaWduX2Vudmlyb25tZW50X2h3dGNs::UVNZUw==::ZGVzaWduX2Vudmlyb25tZW50X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "QUNEU19WRVJTSU9OX0hXVENM::MTguMQ==::QUNEU19WRVJTSU9OX0hXVENM"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "SU5URU5ERURfREVWSUNFX0ZBTUlMWQ==::U3RyYXRpeCBW::SU5URU5ERURfREVWSUNFX0ZBTUlMWQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cGNpZV9xc3lz::MQ==::cGNpZV9xc3lz"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bGFuZV9tYXNrX2h3dGNs::eDQ=::TnVtYmVyIG9mIGxhbmVz"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuMTIzX2xhbmVfcmF0ZV9tb2RlX2h3dGNs::R2VuMyAoOC4wIEdicHMp::TGFuZSByYXRl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cG9ydF90eXBlX2h3dGNs::TmF0aXZlIGVuZHBvaW50::UG9ydCB0eXBl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cGNpZV9zcGVjX3ZlcnNpb25faHd0Y2w=::My4w::UENJIEV4cHJlc3MgQmFzZSBTcGVjaWZpY2F0aW9uIHZlcnNpb24="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YXN0X3dpZHRoX2h3dGNs::QXZhbG9uLVNUIDEyOC1iaXQ=::QXBwbGljYXRpb24gaW50ZXJmYWNl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cnhidWZmZXJfcnhyZXFfaHd0Y2w=::TWF4aW11bQ==::UlggYnVmZmVyIGNyZWRpdCBhbGxvY2F0aW9uIC0gcGVyZm9ybWFuY2UgZm9yIHJlY2VpdmVkIHJlcXVlc3Rz"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cGxsX3JlZmNsa19mcmVxX2h3dGNs::MTAwIE1Ieg==::UmVmZXJlbmNlIGNsb2NrIGZyZXF1ZW5jeQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c2V0X3BsZF9jbGtfeDFfNjI1TUh6X2h3dGNs::MA==::VXNlICA2Mi41IE1IeiBhcHBsaWNhdGlvbiBjbG9jaw=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dXNlX3J4X3N0X2JlX2h3dGNs::MA==::VXNlIGRlcHJlY2F0ZWQgUlggQXZhbG9uLVNUIGRhdGEgYnl0ZSBlbmFibGUgcG9ydCAocnhfc3RfYmUp"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dXNlX2FzdF9wYXJpdHk=::MA==::RW5hYmxlIGJ5dGUgcGFyaXR5IHBvcnRzIG9uIEF2YWxvbi1TVCBpbnRlcmZhY2U="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bXVsdGlwbGVfcGFja2V0c19wZXJfY3ljbGVfaHd0Y2w=::MA==::RW5hYmxlIG11bHRpcGxlIHBhY2tldHMgcGVyIGN5Y2xl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "aW5fY3ZwX21vZGVfaHd0Y2w=::MA==::RW5hYmxlIGNvbmZpZ3VyYXRpb24gdmlhIHRoZSBQQ0llIGxpbms="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dXNlX3R4X2NvbnNfY3JlZF9zZWxfaHd0Y2w=::MA==::VXNlIGNyZWRpdCBjb25zdW1lZCBzZWxlY3Rpb24gcG9ydCB0eF9jb25zX2NyZWRfc2Vs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dXNlX3BjaV9leHRfaHd0Y2w=::MA==::VXNlIFBDSSBleHRlbmRlZCBzcGFjZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dXNlX3BjaWVfZXh0X2h3dGNs::MA==::VXNlIFBDSSBFeHByZXNzIGV4dGVuZGVkIHNwYWNl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dXNlX2NvbmZpZ19ieXBhc3NfaHd0Y2w=::MA==::RW5hYmxlIENvbmZpZ3VyYXRpb24gQnlwYXNz"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX3RsX29ubHlfc2ltX2h3dGNs::MA==::RW5hYmxlIFRMLURpcmVjdCBzaW11bGF0aW9u"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "aGlwX3JlY29uZmlnX2h3dGNs::MA==::RW5hYmxlIEhhcmQgSVAgcmVjb25maWd1cmF0aW9u"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "aGlwX3RhZ19jaGVja2luZ19od3RjbA==::MQ==::RW5hYmxlIEhhcmQgSVAgY29tcGxldGlvbiB0YWcgY2hlY2tpbmc="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX3Bvd2VyX29uX3JzdF9wdWxzZV9od3RjbA==::MA==::RW5hYmxlIEhhcmQgSVAgcmVzZXQgcHVsc2UgYXQgcG93ZXItdXAgd2hlbiB1c2luZyB0aGUgc29mdCByZXNldCBjb250cm9sbGVy"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX3BjaXNpZ3Rlc3RfaHd0Y2w=::MA==::RW5hYmxlcyBQQ0ktU0lHIHRlc3QgbG9naWM="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyMF90eXBlX2h3dGNs::Mg==::VHlwZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyMF9zaXplX21hc2tfaHd0Y2w=::MTA=::U2l6ZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyMF9pb19zcGFjZV9od3RjbA==::RGlzYWJsZWQ=::SS9PIFNwYWNl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyMF82NGJpdF9tZW1fc3BhY2VfaHd0Y2w=::RGlzYWJsZWQ=::NjQtYml0IGFkZHJlc3M="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyMF9wcmVmZXRjaGFibGVfaHd0Y2w=::RGlzYWJsZWQ=::UHJlZmV0Y2hhYmxl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyMV90eXBlX2h3dGNs::MA==::VHlwZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyMV9zaXplX21hc2tfaHd0Y2w=::MA==::U2l6ZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyMV9pb19zcGFjZV9od3RjbA==::RGlzYWJsZWQ=::SS9PIFNwYWNl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyMV9wcmVmZXRjaGFibGVfaHd0Y2w=::RGlzYWJsZWQ=::UHJlZmV0Y2hhYmxl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyMl90eXBlX2h3dGNs::MA==::VHlwZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyMl9zaXplX21hc2tfaHd0Y2w=::MA==::U2l6ZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyMl9pb19zcGFjZV9od3RjbA==::RGlzYWJsZWQ=::SS9PIFNwYWNl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyMl82NGJpdF9tZW1fc3BhY2VfaHd0Y2w=::RGlzYWJsZWQ=::NjQtYml0IGFkZHJlc3M="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyMl9wcmVmZXRjaGFibGVfaHd0Y2w=::RGlzYWJsZWQ=::UHJlZmV0Y2hhYmxl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyM190eXBlX2h3dGNs::MA==::VHlwZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyM19zaXplX21hc2tfaHd0Y2w=::MA==::U2l6ZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyM19pb19zcGFjZV9od3RjbA==::RGlzYWJsZWQ=::SS9PIFNwYWNl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyM19wcmVmZXRjaGFibGVfaHd0Y2w=::RGlzYWJsZWQ=::UHJlZmV0Y2hhYmxl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyNF90eXBlX2h3dGNs::MA==::VHlwZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyNF9zaXplX21hc2tfaHd0Y2w=::MA==::U2l6ZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyNF9pb19zcGFjZV9od3RjbA==::RGlzYWJsZWQ=::SS9PIFNwYWNl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyNF82NGJpdF9tZW1fc3BhY2VfaHd0Y2w=::RGlzYWJsZWQ=::NjQtYml0IGFkZHJlc3M="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyNF9wcmVmZXRjaGFibGVfaHd0Y2w=::RGlzYWJsZWQ=::UHJlZmV0Y2hhYmxl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyNV90eXBlX2h3dGNs::MA==::VHlwZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyNV9zaXplX21hc2tfaHd0Y2w=::MA==::U2l6ZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyNV9pb19zcGFjZV9od3RjbA==::RGlzYWJsZWQ=::SS9PIFNwYWNl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YmFyNV9wcmVmZXRjaGFibGVfaHd0Y2w=::RGlzYWJsZWQ=::UHJlZmV0Y2hhYmxl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZXhwYW5zaW9uX2Jhc2VfYWRkcmVzc19yZWdpc3Rlcl9od3RjbA==::MA==::U2l6ZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "aW9fd2luZG93X2FkZHJfd2lkdGhfaHd0Y2w=::MA==::SW5wdXQvT3V0cHV0"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cHJlZmV0Y2hhYmxlX21lbV93aW5kb3dfYWRkcl93aWR0aF9od3RjbA==::MA==::UHJlZmV0Y2hhYmxlIG1lbW9yeQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dmVuZG9yX2lkX2h3dGNs::NDQ2Ng==::VmVuZG9yIElE"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZGV2aWNlX2lkX2h3dGNs::Mg==::RGV2aWNlIElE"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cmV2aXNpb25faWRfaHd0Y2w=::MQ==::UmV2aXNpb24gSUQ="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Y2xhc3NfY29kZV9od3RjbA==::MA==::Q2xhc3MgQ29kZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c3Vic3lzdGVtX3ZlbmRvcl9pZF9od3RjbA==::MA==::U3Vic3lzdGVtIFZlbmRvciBJRA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c3Vic3lzdGVtX2RldmljZV9pZF9od3RjbA==::MA==::U3Vic3lzdGVtIERldmljZSBJRA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bWF4X3BheWxvYWRfc2l6ZV9od3RjbA==::MjU2::TWF4aW11bSBwYXlsb2FkIHNpemU="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZXh0ZW5kX3RhZ19maWVsZF9od3RjbA==::NjQ=::TnVtYmVyIG9mIHRhZ3Mgc3VwcG9ydGVk"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Y29tcGxldGlvbl90aW1lb3V0X2h3dGNs::QUJDRA==::Q29tcGxldGlvbiB0aW1lb3V0IHJhbmdl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2NvbXBsZXRpb25fdGltZW91dF9kaXNhYmxlX2h3dGNs::MQ==::SW1wbGVtZW50IGNvbXBsZXRpb24gdGltZW91dCBkaXNhYmxl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dXNlX2Flcl9od3RjbA==::MA==::QWR2YW5jZWQgZXJyb3IgcmVwb3J0aW5nIChBRVIp"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZWNyY19jaGVja19jYXBhYmxlX2h3dGNs::MA==::RUNSQyBjaGVja2luZw=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZWNyY19nZW5fY2FwYWJsZV9od3RjbA==::MA==::RUNSQyBnZW5lcmF0aW9u"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dXNlX2NyY19mb3J3YXJkaW5nX2h3dGNs::MA==::RUNSQyBmb3J3YXJkaW5n"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dHJhY2tfcnhmY19jcGxidWZfb3ZmX2h3dGNs::MA==::VHJhY2sgUmVjZWl2ZSBDb21wbGV0aW9uIEJ1ZmZlciBPdmVyZmxvdw=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cG9ydF9saW5rX251bWJlcl9od3RjbA==::MQ==::TGluayBwb3J0IG51bWJlcg=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZGxsX2FjdGl2ZV9yZXBvcnRfc3VwcG9ydF9od3RjbA==::MA==::RGF0YSBsaW5rIGxheWVyIGFjdGl2ZSByZXBvcnRpbmc="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c3VycHJpc2VfZG93bl9lcnJvcl9zdXBwb3J0X2h3dGNs::MA==::U3VycHJpc2UgZG93biByZXBvcnRpbmc="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c2xvdGNsa2NmZ19od3RjbA==::MQ==::U2xvdCBjbG9jayBjb25maWd1cmF0aW9u"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bXNpX211bHRpX21lc3NhZ2VfY2FwYWJsZV9od3RjbA==::MQ==::TnVtYmVyIG9mIE1TSSBtZXNzYWdlcyByZXF1ZXN0ZWQ="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bXNpXzY0Yml0X2FkZHJlc3NpbmdfY2FwYWJsZV9od3RjbA==::dHJ1ZQ==::bXNpXzY0Yml0X2FkZHJlc3NpbmdfY2FwYWJsZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bXNpX21hc2tpbmdfY2FwYWJsZV9od3RjbA==::ZmFsc2U=::bXNpX21hc2tpbmdfY2FwYWJsZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bXNpX3N1cHBvcnRfaHd0Y2w=::dHJ1ZQ==::bXNpX3N1cHBvcnRfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2Z1bmN0aW9uX21zaXhfc3VwcG9ydF9od3RjbA==::MA==::SW1wbGVtZW50IE1TSS1Y"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bXNpeF90YWJsZV9zaXplX2h3dGNs::MA==::VGFibGUgc2l6ZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bXNpeF90YWJsZV9vZmZzZXRfaHd0Y2w=::MA==::VGFibGUgb2Zmc2V0"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bXNpeF90YWJsZV9iaXJfaHd0Y2w=::MA==::VGFibGUgQkFSIGluZGljYXRvcg=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bXNpeF9wYmFfb2Zmc2V0X2h3dGNs::MA==::UGVuZGluZyBiaXQgYXJyYXkgKFBCQSkgb2Zmc2V0"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bXNpeF9wYmFfYmlyX2h3dGNs::MA==::UEJBIEJBUiBJbmRpY2F0b3I="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX3Nsb3RfcmVnaXN0ZXJfaHd0Y2w=::MA==::VXNlIHNsb3QgcmVnaXN0ZXI="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c2xvdF9wb3dlcl9zY2FsZV9od3RjbA==::MA==::U2xvdCBwb3dlciBzY2FsZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c2xvdF9wb3dlcl9saW1pdF9od3RjbA==::MA==::U2xvdCBwb3dlciBsaW1pdA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c2xvdF9udW1iZXJfaHd0Y2w=::MA==::U2xvdCBudW1iZXI="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5kcG9pbnRfbDBfbGF0ZW5jeV9od3RjbA==::MA==::RW5kcG9pbnQgTDBzIGFjY2VwdGFibGUgbGF0ZW5jeQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5kcG9pbnRfbDFfbGF0ZW5jeV9od3RjbA==::MA==::RW5kcG9pbnQgTDEgYWNjZXB0YWJsZSBsYXRlbmN5"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dnNlY19pZF9od3RjbA==::NDA5NjA=::VmVuZG9yIFNwZWNpZmljIEV4dGVuZGVkIENhcGFiaWxpdHkgKFZTRUMpIElE"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dnNlY19yZXZfaHd0Y2w=::MA==::VmVuZG9yIFNwZWNpZmljIEV4dGVuZGVkIENhcGFiaWxpdHkgKFZTRUMpIFJldmlzaW9u"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dXNlcl9pZF9od3RjbA==::MA==::VXNlciBJRCByZWdpc3RlciBmcm9tIHRoZSBWZW5kb3IgU3BlY2lmaWMgRXh0ZW5kZWQgQ2FwYWJpbGl0eQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cGxkX2Nsa19NSHo=::MjUwMA==::cGxkX2Nsa19NSHo="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bWlsbGlzZWNvbmRfY3ljbGVfY291bnRfaHd0Y2w=::MjQ4NTAw::bWlsbGlzZWNvbmRfY3ljbGVfY291bnRfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cG9ydF93aWR0aF9iZV9od3RjbA==::MTY=::cG9ydF93aWR0aF9iZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cG9ydF93aWR0aF9kYXRhX2h3dGNs::MTI4::cG9ydF93aWR0aF9kYXRhX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19kY2JhbF9lbl9od3RjbA==::MQ==::Z2VuM19kY2JhbF9lbl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX3BpcGUzMl9zaW1faHd0Y2w=::MA==::ZW5hYmxlX3BpcGUzMl9zaW1faHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX3BpcGUzMl9waHlpcF9zZXJfZHJpdmVyX2h3dGNs::MA==::ZW5hYmxlX3BpcGUzMl9waHlpcF9zZXJfZHJpdmVyX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Zml4ZWRfcHJlc2V0X29u::MA==::Zml4ZWRfcHJlc2V0X29u"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9wYXJhbWV0ZXJfb3ZlcnJpZGU=::MA==::YWR2YW5jZWRfZGVmYXVsdF9wYXJhbWV0ZXJfb3ZlcnJpZGU="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "b3ZlcnJpZGVfdGJwYXJ0bmVyX2RyaXZlcl9zZXR0aW5nX2h3dGNs::MA==::b3ZlcnJpZGVfdGJwYXJ0bmVyX2RyaXZlcl9zZXR0aW5nX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "b3ZlcnJpZGVfcnhidWZmZXJfY3JlZF9wcmVzZXQ=::MA==::b3ZlcnJpZGVfcnhidWZmZXJfY3JlZF9wcmVzZXQ="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YnlwYXNzX2NkY19od3RjbA==::ZmFsc2U=::YnlwYXNzX2NkY19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX3J4X2J1ZmZlcl9jaGVja2luZ19od3RjbA==::ZmFsc2U=::ZW5hYmxlX3J4X2J1ZmZlcl9jaGVja2luZ19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZGlzYWJsZV9saW5rX3gyX3N1cHBvcnRfaHd0Y2w=::ZmFsc2U=::ZGlzYWJsZV9saW5rX3gyX3N1cHBvcnRfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "d3JvbmdfZGV2aWNlX2lkX2h3dGNs::ZGlzYWJsZQ==::d3JvbmdfZGV2aWNlX2lkX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZGF0YV9wYWNrX3J4X2h3dGNs::ZGlzYWJsZQ==::ZGF0YV9wYWNrX3J4X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bHRzc21fMW1zX3RpbWVvdXRfaHd0Y2w=::ZGlzYWJsZQ==::bHRzc21fMW1zX3RpbWVvdXRfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bHRzc21fZnJlcWxvY2tlZF9jaGVja19od3RjbA==::ZGlzYWJsZQ==::bHRzc21fZnJlcWxvY2tlZF9jaGVja19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZGVza2V3X2NvbW1hX2h3dGNs::c2twX2VpZW9zX2Rlc2t3::ZGVza2V3X2NvbW1hX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZGV2aWNlX251bWJlcl9od3RjbA==::MA==::ZGV2aWNlX251bWJlcl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cGlwZXgxX2RlYnVnX3NlbF9od3RjbA==::ZGlzYWJsZQ==::cGlwZXgxX2RlYnVnX3NlbF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cGNsa19vdXRfc2VsX2h3dGNs::cGNsaw==::cGNsa19vdXRfc2VsX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bm9fc29mdF9yZXNldF9od3RjbA==::ZmFsc2U=::bm9fc29mdF9yZXNldF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bWF4aW11bV9jdXJyZW50X2h3dGNs::MA==::bWF4aW11bV9jdXJyZW50X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZDFfc3VwcG9ydF9od3RjbA==::ZmFsc2U=::ZDFfc3VwcG9ydF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZDJfc3VwcG9ydF9od3RjbA==::ZmFsc2U=::ZDJfc3VwcG9ydF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZDBfcG1lX2h3dGNs::ZmFsc2U=::ZDBfcG1lX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZDFfcG1lX2h3dGNs::ZmFsc2U=::ZDFfcG1lX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZDJfcG1lX2h3dGNs::ZmFsc2U=::ZDJfcG1lX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZDNfaG90X3BtZV9od3RjbA==::ZmFsc2U=::ZDNfaG90X3BtZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZDNfY29sZF9wbWVfaHd0Y2w=::ZmFsc2U=::ZDNfY29sZF9wbWVfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bG93X3ByaW9yaXR5X3ZjX2h3dGNs::c2luZ2xlX3Zj::bG93X3ByaW9yaXR5X3ZjX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZGlzYWJsZV9zbm9vcF9wYWNrZXRfaHd0Y2w=::ZmFsc2U=::ZGlzYWJsZV9zbm9vcF9wYWNrZXRfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2wxX2FzcG1faHd0Y2w=::ZmFsc2U=::ZW5hYmxlX2wxX2FzcG1faHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c2V0X2wwc19od3RjbA==::MA==::c2V0X2wwc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cnhfZWlfbDBzX2h3dGNs::MA==::TDBzIHN1cHBvcnRlZA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2wwc19hc3BtX2h3dGNs::ZmFsc2U=::ZW5hYmxlX2wwc19hc3BtX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YXNwbV9jb25maWdfbWFuYWdlbWVudF9od3RjbA==::dHJ1ZQ==::YXNwbV9jb25maWdfbWFuYWdlbWVudF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bDFfZXhpdF9sYXRlbmN5X3NhbWVjbG9ja19od3RjbA==::MA==::bDFfZXhpdF9sYXRlbmN5X3NhbWVjbG9ja19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bDFfZXhpdF9sYXRlbmN5X2RpZmZjbG9ja19od3RjbA==::MA==::bDFfZXhpdF9sYXRlbmN5X2RpZmZjbG9ja19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "aG90X3BsdWdfc3VwcG9ydF9od3RjbA==::MA==::aG90X3BsdWdfc3VwcG9ydF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZXh0ZW5kZWRfdGFnX3Jlc2V0X2h3dGNs::ZmFsc2U=::ZXh0ZW5kZWRfdGFnX3Jlc2V0X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bm9fY29tbWFuZF9jb21wbGV0ZWRfaHd0Y2w=::ZmFsc2U=::bm9fY29tbWFuZF9jb21wbGV0ZWRfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "aW50ZXJydXB0X3Bpbl9od3RjbA==::aW50YQ==::aW50ZXJydXB0X3Bpbl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YnJpZGdlX3BvcnRfdmdhX2VuYWJsZV9od3RjbA==::ZmFsc2U=::YnJpZGdlX3BvcnRfdmdhX2VuYWJsZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YnJpZGdlX3BvcnRfc3NpZF9zdXBwb3J0X2h3dGNs::ZmFsc2U=::YnJpZGdlX3BvcnRfc3NpZF9zdXBwb3J0X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c3N2aWRfaHd0Y2w=::MA==::c3N2aWRfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c3NpZF9od3RjbA==::MA==::c3NpZF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZWllX2JlZm9yZV9uZnRzX2NvdW50X2h3dGNs::NA==::ZWllX2JlZm9yZV9uZnRzX2NvdW50X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuMl9kaWZmY2xvY2tfbmZ0c19jb3VudF9od3RjbA==::MjU1::Z2VuMl9kaWZmY2xvY2tfbmZ0c19jb3VudF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuMl9zYW1lY2xvY2tfbmZ0c19jb3VudF9od3RjbA==::MjU1::Z2VuMl9zYW1lY2xvY2tfbmZ0c19jb3VudF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bDBfZXhpdF9sYXRlbmN5X3NhbWVjbG9ja19od3RjbA==::Ng==::bDBfZXhpdF9sYXRlbmN5X3NhbWVjbG9ja19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bDBfZXhpdF9sYXRlbmN5X2RpZmZjbG9ja19od3RjbA==::Ng==::bDBfZXhpdF9sYXRlbmN5X2RpZmZjbG9ja19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YXRvbWljX29wX3JvdXRpbmdfaHd0Y2w=::ZmFsc2U=::YXRvbWljX29wX3JvdXRpbmdfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YXRvbWljX29wX2NvbXBsZXRlcl8zMmJpdF9od3RjbA==::ZmFsc2U=::YXRvbWljX29wX2NvbXBsZXRlcl8zMmJpdF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YXRvbWljX29wX2NvbXBsZXRlcl82NGJpdF9od3RjbA==::ZmFsc2U=::YXRvbWljX29wX2NvbXBsZXRlcl82NGJpdF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Y2FzX2NvbXBsZXRlcl8xMjhiaXRfaHd0Y2w=::ZmFsc2U=::Y2FzX2NvbXBsZXRlcl8xMjhiaXRfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bHRyX21lY2hhbmlzbV9od3RjbA==::ZmFsc2U=::bHRyX21lY2hhbmlzbV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dHBoX2NvbXBsZXRlcl9od3RjbA==::ZmFsc2U=::dHBoX2NvbXBsZXRlcl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZXh0ZW5kZWRfZm9ybWF0X2ZpZWxkX2h3dGNs::ZmFsc2U=::ZXh0ZW5kZWRfZm9ybWF0X2ZpZWxkX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YXRvbWljX21hbGZvcm1lZF9od3RjbA==::dHJ1ZQ==::YXRvbWljX21hbGZvcm1lZF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZmxyX2NhcGFiaWxpdHlfaHd0Y2w=::ZmFsc2U=::ZmxyX2NhcGFiaWxpdHlfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZW5hYmxlX2FkYXB0ZXJfaGFsZl9yYXRlX21vZGVfaHd0Y2w=::ZmFsc2U=::ZW5hYmxlX2FkYXB0ZXJfaGFsZl9yYXRlX21vZGVfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dmMwX2Nsa19lbmFibGVfaHd0Y2w=::dHJ1ZQ==::dmMwX2Nsa19lbmFibGVfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cmVnaXN0ZXJfcGlwZV9zaWduYWxzX2h3dGNs::ZmFsc2U=::cmVnaXN0ZXJfcGlwZV9zaWduYWxzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c2twX29zX2dlbjNfY291bnRfaHd0Y2w=::MA==::c2twX29zX2dlbjNfY291bnRfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dHhfY2RjX2FsbW9zdF9lbXB0eV9od3RjbA==::NQ==::dHhfY2RjX2FsbW9zdF9lbXB0eV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cnhfbDBzX2NvdW50X2lkbF9od3RjbA==::MA==::cnhfbDBzX2NvdW50X2lkbF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Y2RjX2R1bW15X2luc2VydF9saW1pdF9od3RjbA==::MTE=::Y2RjX2R1bW15X2luc2VydF9saW1pdF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZWlfZGVsYXlfcG93ZXJkb3duX2NvdW50X2h3dGNs::MTA=::ZWlfZGVsYXlfcG93ZXJkb3duX2NvdW50X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c2twX29zX3NjaGVkdWxlX2NvdW50X2h3dGNs::MA==::c2twX29zX3NjaGVkdWxlX2NvdW50X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZmNfaW5pdF90aW1lcl9od3RjbA==::MTAyNA==::ZmNfaW5pdF90aW1lcl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bDAxX2VudHJ5X2xhdGVuY3lfaHd0Y2w=::MzE=::bDAxX2VudHJ5X2xhdGVuY3lfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Zmxvd19jb250cm9sX3VwZGF0ZV9jb3VudF9od3RjbA==::MzA=::Zmxvd19jb250cm9sX3VwZGF0ZV9jb3VudF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Zmxvd19jb250cm9sX3RpbWVvdXRfY291bnRfaHd0Y2w=::MjAw::Zmxvd19jb250cm9sX3RpbWVvdXRfY291bnRfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cmV0cnlfYnVmZmVyX2xhc3RfYWN0aXZlX2FkZHJlc3NfaHd0Y2w=::MjA0Nw==::cmV0cnlfYnVmZmVyX2xhc3RfYWN0aXZlX2FkZHJlc3NfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cmVzZXJ2ZWRfZGVidWdfaHd0Y2w=::MA==::cmVzZXJ2ZWRfZGVidWdfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YnlwYXNzX2Nsa19zd2l0Y2hfaHd0Y2w=::dHJ1ZQ==::YnlwYXNzX2Nsa19zd2l0Y2hfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bDJfYXN5bmNfbG9naWNfaHd0Y2w=::ZGlzYWJsZQ==::bDJfYXN5bmNfbG9naWNfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "aW5kaWNhdG9yX2h3dGNs::MA==::aW5kaWNhdG9yX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZGlmZmNsb2NrX25mdHNfY291bnRfaHd0Y2w=::MTI4::ZGlmZmNsb2NrX25mdHNfY291bnRfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c2FtZWNsb2NrX25mdHNfY291bnRfaHd0Y2w=::MTI4::c2FtZWNsb2NrX25mdHNfY291bnRfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cnhfY2RjX2FsbW9zdF9mdWxsX2h3dGNs::MTI=::cnhfY2RjX2FsbW9zdF9mdWxsX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dHhfY2RjX2FsbW9zdF9mdWxsX2h3dGNs::MTE=::dHhfY2RjX2FsbW9zdF9mdWxsX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Y3JlZGl0X2J1ZmZlcl9hbGxvY2F0aW9uX2F1eF9od3RjbA==::YWJzb2x1dGU=::Y3JlZGl0X2J1ZmZlcl9hbGxvY2F0aW9uX2F1eF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dmMwX3J4X2Zsb3dfY3RybF9wb3N0ZWRfaGVhZGVyX2h3dGNs::NTg=::dmMwX3J4X2Zsb3dfY3RybF9wb3N0ZWRfaGVhZGVyX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dmMwX3J4X2Zsb3dfY3RybF9wb3N0ZWRfZGF0YV9od3RjbA==::ODk3::dmMwX3J4X2Zsb3dfY3RybF9wb3N0ZWRfZGF0YV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dmMwX3J4X2Zsb3dfY3RybF9ub25wb3N0ZWRfaGVhZGVyX2h3dGNs::NTI=::dmMwX3J4X2Zsb3dfY3RybF9ub25wb3N0ZWRfaGVhZGVyX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dmMwX3J4X2Zsb3dfY3RybF9ub25wb3N0ZWRfZGF0YV9od3RjbA==::MA==::dmMwX3J4X2Zsb3dfY3RybF9ub25wb3N0ZWRfZGF0YV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dmMwX3J4X2Zsb3dfY3RybF9jb21wbF9oZWFkZXJfaHd0Y2w=::MA==::dmMwX3J4X2Zsb3dfY3RybF9jb21wbF9oZWFkZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dmMwX3J4X2Zsb3dfY3RybF9jb21wbF9kYXRhX2h3dGNs::MA==::dmMwX3J4X2Zsb3dfY3RybF9jb21wbF9kYXRhX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Y3BsX3NwY19oZWFkZXJfaHd0Y2w=::MQ==::Y3BsX3NwY19oZWFkZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Y3BsX3NwY19kYXRhX2h3dGNs::MTY=::Y3BsX3NwY19kYXRhX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19yeGZyZXFsb2NrX2NvdW50ZXJfaHd0Y2w=::MA==::Z2VuM19yeGZyZXFsb2NrX2NvdW50ZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19za2lwX3BoMl9waDNfaHd0Y2w=::MA==::Z2VuM19za2lwX3BoMl9waDNfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZzNfYnlwYXNzX2VxdWx6X2h3dGNs::MA==::ZzNfYnlwYXNzX2VxdWx6X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Y3ZwX2RhdGFfY29tcHJlc3NlZF9od3RjbA==::ZmFsc2U=::Y3ZwX2RhdGFfY29tcHJlc3NlZF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Y3ZwX2RhdGFfZW5jcnlwdGVkX2h3dGNs::ZmFsc2U=::Y3ZwX2RhdGFfZW5jcnlwdGVkX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Y3ZwX21vZGVfcmVzZXRfaHd0Y2w=::ZmFsc2U=::Y3ZwX21vZGVfcmVzZXRfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Y3ZwX2Nsa19yZXNldF9od3RjbA==::ZmFsc2U=::Y3ZwX2Nsa19yZXNldF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Y3NlYl9jcGxfc3RhdHVzX2R1cmluZ19jdnBfaHd0Y2w=::Y29uZmlnX3JldHJ5X3N0YXR1cw==::Y3NlYl9jcGxfc3RhdHVzX2R1cmluZ19jdnBfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Y29yZV9jbGtfc2VsX2h3dGNs::cGxkX2Nsaw==::Y29yZV9jbGtfc2VsX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Y3ZwX3JhdGVfc2VsX2h3dGNs::ZnVsbF9yYXRl::Y3ZwX3JhdGVfc2VsX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZzNfZGlzX3J4X3VzZV9wcnN0X2h3dGNs::dHJ1ZQ==::ZzNfZGlzX3J4X3VzZV9wcnN0X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZzNfZGlzX3J4X3VzZV9wcnN0X2VwX2h3dGNs::dHJ1ZQ==::ZzNfZGlzX3J4X3VzZV9wcnN0X2VwX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZGVlbXBoYXNpc19lbmFibGVfaHd0Y2w=::ZmFsc2U=::ZGVlbXBoYXNpc19lbmFibGVfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cmVjb25maWdfdG9feGN2cl93aWR0aA==::NDIw::cmVjb25maWdfdG9feGN2cl93aWR0aA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cmVjb25maWdfZnJvbV94Y3ZyX3dpZHRo::Mjc2::cmVjb25maWdfZnJvbV94Y3ZyX3dpZHRo"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c2luZ2xlX3J4X2RldGVjdF9od3RjbA==::NA==::c2luZ2xlX3J4X2RldGVjdF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "aGlwX2hhcmRfcmVzZXRfaHd0Y2w=::MA==::aGlwX2hhcmRfcmVzZXRfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Zm9yY2VfaHJj::MA==::Zm9yY2VfaHJj"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Zm9yY2Vfc3Jj::MA==::Zm9yY2Vfc3Jj"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "c2VyaWFsX3NpbV9od3RjbA==::MQ==::c2VyaWFsX3NpbV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9ieXBhc3NfY2Rj::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9ieXBhc3NfY2Rj"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9lbmFibGVfcnhfYnVmZmVyX2NoZWNraW5n::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9lbmFibGVfcnhfYnVmZmVyX2NoZWNraW5n"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kaXNhYmxlX2xpbmtfeDJfc3VwcG9ydA==::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kaXNhYmxlX2xpbmtfeDJfc3VwcG9ydA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF93cm9uZ19kZXZpY2VfaWQ=::ZGlzYWJsZQ==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF93cm9uZ19kZXZpY2VfaWQ="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kYXRhX3BhY2tfcng=::ZGlzYWJsZQ==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kYXRhX3BhY2tfcng="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sdHNzbV8xbXNfdGltZW91dA==::ZGlzYWJsZQ==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sdHNzbV8xbXNfdGltZW91dA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sdHNzbV9mcmVxbG9ja2VkX2NoZWNr::ZGlzYWJsZQ==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sdHNzbV9mcmVxbG9ja2VkX2NoZWNr"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kZXNrZXdfY29tbWE=::Y29tX2Rlc2t3::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kZXNrZXdfY29tbWE="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kZXZpY2VfbnVtYmVy::MA==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kZXZpY2VfbnVtYmVy"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9waXBleDFfZGVidWdfc2Vs::ZGlzYWJsZQ==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9waXBleDFfZGVidWdfc2Vs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9wY2xrX291dF9zZWw=::cGNsaw==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9wY2xrX291dF9zZWw="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9ub19zb2Z0X3Jlc2V0::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9ub19zb2Z0X3Jlc2V0"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9tYXhpbXVtX2N1cnJlbnQ=::MA==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9tYXhpbXVtX2N1cnJlbnQ="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kMV9zdXBwb3J0::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kMV9zdXBwb3J0"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kMl9zdXBwb3J0::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kMl9zdXBwb3J0"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kMF9wbWU=::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kMF9wbWU="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kMV9wbWU=::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kMV9wbWU="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kMl9wbWU=::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kMl9wbWU="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kM19ob3RfcG1l::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kM19ob3RfcG1l"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kM19jb2xkX3BtZQ==::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kM19jb2xkX3BtZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sb3dfcHJpb3JpdHlfdmM=::c2luZ2xlX3Zj::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sb3dfcHJpb3JpdHlfdmM="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kaXNhYmxlX3Nub29wX3BhY2tldA==::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9kaXNhYmxlX3Nub29wX3BhY2tldA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9lbmFibGVfbDFfYXNwbQ==::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9lbmFibGVfbDFfYXNwbQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9zZXRfbDBz::MA==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9zZXRfbDBz"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sMV9leGl0X2xhdGVuY3lfc2FtZWNsb2Nr::MA==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sMV9leGl0X2xhdGVuY3lfc2FtZWNsb2Nr"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sMV9leGl0X2xhdGVuY3lfZGlmZmNsb2Nr::MA==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sMV9leGl0X2xhdGVuY3lfZGlmZmNsb2Nr"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9ob3RfcGx1Z19zdXBwb3J0::MA==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9ob3RfcGx1Z19zdXBwb3J0"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9leHRlbmRlZF90YWdfcmVzZXQ=::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9leHRlbmRlZF90YWdfcmVzZXQ="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9ub19jb21tYW5kX2NvbXBsZXRlZA==::dHJ1ZQ==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9ub19jb21tYW5kX2NvbXBsZXRlZA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9pbnRlcnJ1cHRfcGlu::aW50YQ==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9pbnRlcnJ1cHRfcGlu"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9icmlkZ2VfcG9ydF92Z2FfZW5hYmxl::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9icmlkZ2VfcG9ydF92Z2FfZW5hYmxl"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9icmlkZ2VfcG9ydF9zc2lkX3N1cHBvcnQ=::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9icmlkZ2VfcG9ydF9zc2lkX3N1cHBvcnQ="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9zc3ZpZA==::MA==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9zc3ZpZA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9zc2lk::MA==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9zc2lk"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9laWVfYmVmb3JlX25mdHNfY291bnQ=::NA==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9laWVfYmVmb3JlX25mdHNfY291bnQ="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9nZW4yX2RpZmZjbG9ja19uZnRzX2NvdW50::MjU1::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9nZW4yX2RpZmZjbG9ja19uZnRzX2NvdW50"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9nZW4yX3NhbWVjbG9ja19uZnRzX2NvdW50::MjU1::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9nZW4yX3NhbWVjbG9ja19uZnRzX2NvdW50"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sMF9leGl0X2xhdGVuY3lfc2FtZWNsb2Nr::Ng==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sMF9leGl0X2xhdGVuY3lfc2FtZWNsb2Nr"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sMF9leGl0X2xhdGVuY3lfZGlmZmNsb2Nr::Ng==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sMF9leGl0X2xhdGVuY3lfZGlmZmNsb2Nr"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9hdG9taWNfb3Bfcm91dGluZw==::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9hdG9taWNfb3Bfcm91dGluZw=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9hdG9taWNfb3BfY29tcGxldGVyXzMyYml0::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9hdG9taWNfb3BfY29tcGxldGVyXzMyYml0"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9hdG9taWNfb3BfY29tcGxldGVyXzY0Yml0::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9hdG9taWNfb3BfY29tcGxldGVyXzY0Yml0"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9jYXNfY29tcGxldGVyXzEyOGJpdA==::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9jYXNfY29tcGxldGVyXzEyOGJpdA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sdHJfbWVjaGFuaXNt::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sdHJfbWVjaGFuaXNt"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF90cGhfY29tcGxldGVy::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF90cGhfY29tcGxldGVy"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9leHRlbmRlZF9mb3JtYXRfZmllbGQ=::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9leHRlbmRlZF9mb3JtYXRfZmllbGQ="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9hdG9taWNfbWFsZm9ybWVk::dHJ1ZQ==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9hdG9taWNfbWFsZm9ybWVk"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9mbHJfY2FwYWJpbGl0eQ==::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9mbHJfY2FwYWJpbGl0eQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9lbmFibGVfYWRhcHRlcl9oYWxmX3JhdGVfbW9kZQ==::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9lbmFibGVfYWRhcHRlcl9oYWxmX3JhdGVfbW9kZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF92YzBfY2xrX2VuYWJsZQ==::dHJ1ZQ==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF92YzBfY2xrX2VuYWJsZQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9yZWdpc3Rlcl9waXBlX3NpZ25hbHM=::ZmFsc2U=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9yZWdpc3Rlcl9waXBlX3NpZ25hbHM="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9za3Bfb3NfZ2VuM19jb3VudA==::MA==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9za3Bfb3NfZ2VuM19jb3VudA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF90eF9jZGNfYWxtb3N0X2VtcHR5::NQ==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF90eF9jZGNfYWxtb3N0X2VtcHR5"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9yeF9sMHNfY291bnRfaWRs::MA==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9yeF9sMHNfY291bnRfaWRs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9jZGNfZHVtbXlfaW5zZXJ0X2xpbWl0::MTE=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9jZGNfZHVtbXlfaW5zZXJ0X2xpbWl0"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9laV9kZWxheV9wb3dlcmRvd25fY291bnQ=::MTA=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9laV9kZWxheV9wb3dlcmRvd25fY291bnQ="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9za3Bfb3Nfc2NoZWR1bGVfY291bnQ=::MA==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9za3Bfb3Nfc2NoZWR1bGVfY291bnQ="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9mY19pbml0X3RpbWVy::MTAyNA==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9mY19pbml0X3RpbWVy"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sMDFfZW50cnlfbGF0ZW5jeQ==::MzE=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9sMDFfZW50cnlfbGF0ZW5jeQ=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9mbG93X2NvbnRyb2xfdXBkYXRlX2NvdW50::MzA=::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9mbG93X2NvbnRyb2xfdXBkYXRlX2NvdW50"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9mbG93X2NvbnRyb2xfdGltZW91dF9jb3VudA==::MjAw::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9mbG93X2NvbnRyb2xfdGltZW91dF9jb3VudA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9yZXRyeV9idWZmZXJfbGFzdF9hY3RpdmVfYWRkcmVzcw==::MjA0Nw==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9yZXRyeV9idWZmZXJfbGFzdF9hY3RpdmVfYWRkcmVzcw=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9yZXNlcnZlZF9kZWJ1Zw==::MA==::YWR2YW5jZWRfZGVmYXVsdF9od3RjbF9yZXNlcnZlZF9kZWJ1Zw=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dXNlX2N2cF91cGRhdGVfY29yZV9wb2ZfaHd0Y2w=::MA==::dXNlX2N2cF91cGRhdGVfY29yZV9wb2ZfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cGNpZV9pbnNwZWN0b3JfaHd0Y2w=::MA==::cGNpZV9pbnNwZWN0b3JfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dGxwX2luc3BlY3Rvcl9od3RjbA==::MA==::dGxwX2luc3BlY3Rvcl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dGxwX2luc3BlY3Rvcl91c2Vfc2lnbmFsX3Byb2JlX2h3dGNs::MA==::dGxwX2luc3BlY3Rvcl91c2Vfc2lnbmFsX3Byb2JlX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dGxwX2luc3BfdHJnX2R3MF9od3RjbA==::MjA0OQ==::dGxwX2luc3BfdHJnX2R3MF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dGxwX2luc3BfdHJnX2R3MV9od3RjbA==::MA==::dGxwX2luc3BfdHJnX2R3MV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dGxwX2luc3BfdHJnX2R3Ml9od3RjbA==::MA==::dGxwX2luc3BfdHJnX2R3Ml9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dGxwX2luc3BfdHJnX2R3M19od3RjbA==::MA==::dGxwX2luc3BfdHJnX2R3M19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "aHd0Y2xfb3ZlcnJpZGVfZzJfdHh2b2Q=::MQ==::aHd0Y2xfb3ZlcnJpZGVfZzJfdHh2b2Q="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cnByZV9lbXBoX2FfdmFsX2h3dGNs::OQ==::cnByZV9lbXBoX2FfdmFsX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cnByZV9lbXBoX2JfdmFsX2h3dGNs::MA==::cnByZV9lbXBoX2JfdmFsX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cnByZV9lbXBoX2NfdmFsX2h3dGNs::MTY=::cnByZV9lbXBoX2NfdmFsX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cnByZV9lbXBoX2RfdmFsX2h3dGNs::MTM=::cnByZV9lbXBoX2RfdmFsX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cnByZV9lbXBoX2VfdmFsX2h3dGNs::NQ==::cnByZV9lbXBoX2VfdmFsX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cnZvZF9zZWxfYV92YWxfaHd0Y2w=::NDI=::cnZvZF9zZWxfYV92YWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cnZvZF9zZWxfYl92YWxfaHd0Y2w=::Mzg=::cnZvZF9zZWxfYl92YWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cnZvZF9zZWxfY192YWxfaHd0Y2w=::Mzg=::cnZvZF9zZWxfY192YWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cnZvZF9zZWxfZF92YWxfaHd0Y2w=::NDM=::cnZvZF9zZWxfZF92YWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "cnZvZF9zZWxfZV92YWxfaHd0Y2w=::MTU=::cnZvZF9zZWxfZV92YWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "aHd0Y2xfb3ZlcnJpZGVfZzNyeGNvZWY=::MA==::aHd0Y2xfb3ZlcnJpZGVfZzNyeGNvZWY="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xX2h3dGNs::Nw==::Z2VuM19jb2VmZl8xX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xX3NlbF9od3RjbA==::cHJlc2V0XzE=::Z2VuM19jb2VmZl8xX3NlbF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xX3ByZXNldF9oaW50X2h3dGNs::MA==::Z2VuM19jb2VmZl8xX3ByZXNldF9oaW50X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xX254dGJlcl9tb3JlX3B0cl9od3RjbA==::MQ==::Z2VuM19jb2VmZl8xX254dGJlcl9tb3JlX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xX254dGJlcl9tb3JlX2h3dGNs::ZzNfY29lZmZfMV9ueHRiZXJfbW9yZQ==::Z2VuM19jb2VmZl8xX254dGJlcl9tb3JlX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xX254dGJlcl9sZXNzX3B0cl9od3RjbA==::MQ==::Z2VuM19jb2VmZl8xX254dGJlcl9sZXNzX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xX254dGJlcl9sZXNzX2h3dGNs::ZzNfY29lZmZfMV9ueHRiZXJfbGVzcw==::Z2VuM19jb2VmZl8xX254dGJlcl9sZXNzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xX3JlcWJlcl9od3RjbA==::MA==::Z2VuM19jb2VmZl8xX3JlcWJlcl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xX2Jlcl9tZWFzX2h3dGNs::Mg==::Z2VuM19jb2VmZl8xX2Jlcl9tZWFzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yX2h3dGNs::MA==::Z2VuM19jb2VmZl8yX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yX3NlbF9od3RjbA==::cHJlc2V0XzI=::Z2VuM19jb2VmZl8yX3NlbF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yX3ByZXNldF9oaW50X2h3dGNs::MA==::Z2VuM19jb2VmZl8yX3ByZXNldF9oaW50X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yX254dGJlcl9tb3JlX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl8yX254dGJlcl9tb3JlX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yX254dGJlcl9tb3JlX2h3dGNs::ZzNfY29lZmZfMl9ueHRiZXJfbW9yZQ==::Z2VuM19jb2VmZl8yX254dGJlcl9tb3JlX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yX254dGJlcl9sZXNzX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl8yX254dGJlcl9sZXNzX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yX254dGJlcl9sZXNzX2h3dGNs::ZzNfY29lZmZfMl9ueHRiZXJfbGVzcw==::Z2VuM19jb2VmZl8yX254dGJlcl9sZXNzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yX3JlcWJlcl9od3RjbA==::MA==::Z2VuM19jb2VmZl8yX3JlcWJlcl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yX2Jlcl9tZWFzX2h3dGNs::MA==::Z2VuM19jb2VmZl8yX2Jlcl9tZWFzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8zX2h3dGNs::MA==::Z2VuM19jb2VmZl8zX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8zX3NlbF9od3RjbA==::cHJlc2V0XzM=::Z2VuM19jb2VmZl8zX3NlbF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8zX3ByZXNldF9oaW50X2h3dGNs::MA==::Z2VuM19jb2VmZl8zX3ByZXNldF9oaW50X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8zX254dGJlcl9tb3JlX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl8zX254dGJlcl9tb3JlX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8zX254dGJlcl9tb3JlX2h3dGNs::ZzNfY29lZmZfM19ueHRiZXJfbW9yZQ==::Z2VuM19jb2VmZl8zX254dGJlcl9tb3JlX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8zX254dGJlcl9sZXNzX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl8zX254dGJlcl9sZXNzX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8zX254dGJlcl9sZXNzX2h3dGNs::ZzNfY29lZmZfM19ueHRiZXJfbGVzcw==::Z2VuM19jb2VmZl8zX254dGJlcl9sZXNzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8zX3JlcWJlcl9od3RjbA==::MA==::Z2VuM19jb2VmZl8zX3JlcWJlcl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8zX2Jlcl9tZWFzX2h3dGNs::MA==::Z2VuM19jb2VmZl8zX2Jlcl9tZWFzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl80X2h3dGNs::MA==::Z2VuM19jb2VmZl80X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl80X3NlbF9od3RjbA==::cHJlc2V0XzQ=::Z2VuM19jb2VmZl80X3NlbF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl80X3ByZXNldF9oaW50X2h3dGNs::MA==::Z2VuM19jb2VmZl80X3ByZXNldF9oaW50X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl80X254dGJlcl9tb3JlX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl80X254dGJlcl9tb3JlX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl80X254dGJlcl9tb3JlX2h3dGNs::ZzNfY29lZmZfNF9ueHRiZXJfbW9yZQ==::Z2VuM19jb2VmZl80X254dGJlcl9tb3JlX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl80X254dGJlcl9sZXNzX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl80X254dGJlcl9sZXNzX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl80X254dGJlcl9sZXNzX2h3dGNs::ZzNfY29lZmZfNF9ueHRiZXJfbGVzcw==::Z2VuM19jb2VmZl80X254dGJlcl9sZXNzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl80X3JlcWJlcl9od3RjbA==::MA==::Z2VuM19jb2VmZl80X3JlcWJlcl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl80X2Jlcl9tZWFzX2h3dGNs::MA==::Z2VuM19jb2VmZl80X2Jlcl9tZWFzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl81X2h3dGNs::MA==::Z2VuM19jb2VmZl81X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl81X3NlbF9od3RjbA==::cHJlc2V0XzU=::Z2VuM19jb2VmZl81X3NlbF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl81X3ByZXNldF9oaW50X2h3dGNs::MA==::Z2VuM19jb2VmZl81X3ByZXNldF9oaW50X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl81X254dGJlcl9tb3JlX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl81X254dGJlcl9tb3JlX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl81X254dGJlcl9tb3JlX2h3dGNs::ZzNfY29lZmZfNV9ueHRiZXJfbW9yZQ==::Z2VuM19jb2VmZl81X254dGJlcl9tb3JlX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl81X254dGJlcl9sZXNzX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl81X254dGJlcl9sZXNzX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl81X254dGJlcl9sZXNzX2h3dGNs::ZzNfY29lZmZfNV9ueHRiZXJfbGVzcw==::Z2VuM19jb2VmZl81X254dGJlcl9sZXNzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl81X3JlcWJlcl9od3RjbA==::MA==::Z2VuM19jb2VmZl81X3JlcWJlcl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl81X2Jlcl9tZWFzX2h3dGNs::MA==::Z2VuM19jb2VmZl81X2Jlcl9tZWFzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl82X2h3dGNs::MA==::Z2VuM19jb2VmZl82X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl82X3NlbF9od3RjbA==::cHJlc2V0XzY=::Z2VuM19jb2VmZl82X3NlbF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl82X3ByZXNldF9oaW50X2h3dGNs::MA==::Z2VuM19jb2VmZl82X3ByZXNldF9oaW50X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl82X254dGJlcl9tb3JlX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl82X254dGJlcl9tb3JlX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl82X254dGJlcl9tb3JlX2h3dGNs::ZzNfY29lZmZfNl9ueHRiZXJfbW9yZQ==::Z2VuM19jb2VmZl82X254dGJlcl9tb3JlX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl82X254dGJlcl9sZXNzX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl82X254dGJlcl9sZXNzX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl82X254dGJlcl9sZXNzX2h3dGNs::ZzNfY29lZmZfNl9ueHRiZXJfbGVzcw==::Z2VuM19jb2VmZl82X254dGJlcl9sZXNzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl82X3JlcWJlcl9od3RjbA==::MA==::Z2VuM19jb2VmZl82X3JlcWJlcl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl82X2Jlcl9tZWFzX2h3dGNs::MA==::Z2VuM19jb2VmZl82X2Jlcl9tZWFzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl83X2h3dGNs::MA==::Z2VuM19jb2VmZl83X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl83X3NlbF9od3RjbA==::cHJlc2V0Xzc=::Z2VuM19jb2VmZl83X3NlbF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl83X3ByZXNldF9oaW50X2h3dGNs::MA==::Z2VuM19jb2VmZl83X3ByZXNldF9oaW50X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl83X254dGJlcl9tb3JlX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl83X254dGJlcl9tb3JlX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl83X254dGJlcl9tb3JlX2h3dGNs::ZzNfY29lZmZfN19ueHRiZXJfbW9yZQ==::Z2VuM19jb2VmZl83X254dGJlcl9tb3JlX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl83X254dGJlcl9sZXNzX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl83X254dGJlcl9sZXNzX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl83X254dGJlcl9sZXNzX2h3dGNs::ZzNfY29lZmZfN19ueHRiZXJfbGVzcw==::Z2VuM19jb2VmZl83X254dGJlcl9sZXNzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl83X3JlcWJlcl9od3RjbA==::MA==::Z2VuM19jb2VmZl83X3JlcWJlcl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl83X2Jlcl9tZWFzX2h3dGNs::MA==::Z2VuM19jb2VmZl83X2Jlcl9tZWFzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl84X2h3dGNs::MA==::Z2VuM19jb2VmZl84X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl84X3NlbF9od3RjbA==::cHJlc2V0Xzg=::Z2VuM19jb2VmZl84X3NlbF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl84X3ByZXNldF9oaW50X2h3dGNs::MA==::Z2VuM19jb2VmZl84X3ByZXNldF9oaW50X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl84X254dGJlcl9tb3JlX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl84X254dGJlcl9tb3JlX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl84X254dGJlcl9tb3JlX2h3dGNs::ZzNfY29lZmZfOF9ueHRiZXJfbW9yZQ==::Z2VuM19jb2VmZl84X254dGJlcl9tb3JlX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl84X254dGJlcl9sZXNzX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl84X254dGJlcl9sZXNzX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl84X254dGJlcl9sZXNzX2h3dGNs::ZzNfY29lZmZfOF9ueHRiZXJfbGVzcw==::Z2VuM19jb2VmZl84X254dGJlcl9sZXNzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl84X3JlcWJlcl9od3RjbA==::MA==::Z2VuM19jb2VmZl84X3JlcWJlcl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl84X2Jlcl9tZWFzX2h3dGNs::MA==::Z2VuM19jb2VmZl84X2Jlcl9tZWFzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl85X2h3dGNs::MA==::Z2VuM19jb2VmZl85X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl85X3NlbF9od3RjbA==::cHJlc2V0Xzk=::Z2VuM19jb2VmZl85X3NlbF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl85X3ByZXNldF9oaW50X2h3dGNs::MA==::Z2VuM19jb2VmZl85X3ByZXNldF9oaW50X2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl85X254dGJlcl9tb3JlX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl85X254dGJlcl9tb3JlX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl85X254dGJlcl9tb3JlX2h3dGNs::ZzNfY29lZmZfOV9ueHRiZXJfbW9yZQ==::Z2VuM19jb2VmZl85X254dGJlcl9tb3JlX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl85X254dGJlcl9sZXNzX3B0cl9od3RjbA==::MA==::Z2VuM19jb2VmZl85X254dGJlcl9sZXNzX3B0cl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl85X254dGJlcl9sZXNzX2h3dGNs::ZzNfY29lZmZfOV9ueHRiZXJfbGVzcw==::Z2VuM19jb2VmZl85X254dGJlcl9sZXNzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl85X3JlcWJlcl9od3RjbA==::MA==::Z2VuM19jb2VmZl85X3JlcWJlcl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl85X2Jlcl9tZWFzX2h3dGNs::MA==::Z2VuM19jb2VmZl85X2Jlcl9tZWFzX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMF9od3RjbA==::MA==::Z2VuM19jb2VmZl8xMF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMF9zZWxfaHd0Y2w=::cHJlc2V0XzEw::Z2VuM19jb2VmZl8xMF9zZWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMF9wcmVzZXRfaGludF9od3RjbA==::MA==::Z2VuM19jb2VmZl8xMF9wcmVzZXRfaGludF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMF9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xMF9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMF9ueHRiZXJfbW9yZV9od3RjbA==::ZzNfY29lZmZfMTBfbnh0YmVyX21vcmU=::Z2VuM19jb2VmZl8xMF9ueHRiZXJfbW9yZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMF9ueHRiZXJfbGVzc19wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xMF9ueHRiZXJfbGVzc19wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMF9ueHRiZXJfbGVzc19od3RjbA==::ZzNfY29lZmZfMTBfbnh0YmVyX2xlc3M=::Z2VuM19jb2VmZl8xMF9ueHRiZXJfbGVzc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMF9yZXFiZXJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xMF9yZXFiZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMF9iZXJfbWVhc19od3RjbA==::MA==::Z2VuM19jb2VmZl8xMF9iZXJfbWVhc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMV9od3RjbA==::MA==::Z2VuM19jb2VmZl8xMV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMV9zZWxfaHd0Y2w=::cHJlc2V0XzEx::Z2VuM19jb2VmZl8xMV9zZWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMV9wcmVzZXRfaGludF9od3RjbA==::MA==::Z2VuM19jb2VmZl8xMV9wcmVzZXRfaGludF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMV9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xMV9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMV9ueHRiZXJfbW9yZV9od3RjbA==::ZzNfY29lZmZfMTFfbnh0YmVyX21vcmU=::Z2VuM19jb2VmZl8xMV9ueHRiZXJfbW9yZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMV9ueHRiZXJfbGVzc19wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xMV9ueHRiZXJfbGVzc19wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMV9ueHRiZXJfbGVzc19od3RjbA==::ZzNfY29lZmZfMTFfbnh0YmVyX2xlc3M=::Z2VuM19jb2VmZl8xMV9ueHRiZXJfbGVzc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMV9yZXFiZXJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xMV9yZXFiZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMV9iZXJfbWVhc19od3RjbA==::MA==::Z2VuM19jb2VmZl8xMV9iZXJfbWVhc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMl9od3RjbA==::MA==::Z2VuM19jb2VmZl8xMl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMl9zZWxfaHd0Y2w=::cHJlc2V0XzEy::Z2VuM19jb2VmZl8xMl9zZWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMl9wcmVzZXRfaGludF9od3RjbA==::MA==::Z2VuM19jb2VmZl8xMl9wcmVzZXRfaGludF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMl9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xMl9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMl9ueHRiZXJfbW9yZV9od3RjbA==::ZzNfY29lZmZfMTJfbnh0YmVyX21vcmU=::Z2VuM19jb2VmZl8xMl9ueHRiZXJfbW9yZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMl9ueHRiZXJfbGVzc19wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xMl9ueHRiZXJfbGVzc19wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMl9ueHRiZXJfbGVzc19od3RjbA==::ZzNfY29lZmZfMTJfbnh0YmVyX2xlc3M=::Z2VuM19jb2VmZl8xMl9ueHRiZXJfbGVzc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMl9yZXFiZXJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xMl9yZXFiZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xMl9iZXJfbWVhc19od3RjbA==::MA==::Z2VuM19jb2VmZl8xMl9iZXJfbWVhc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xM19od3RjbA==::MA==::Z2VuM19jb2VmZl8xM19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xM19zZWxfaHd0Y2w=::cHJlc2V0XzEz::Z2VuM19jb2VmZl8xM19zZWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xM19wcmVzZXRfaGludF9od3RjbA==::MA==::Z2VuM19jb2VmZl8xM19wcmVzZXRfaGludF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xM19ueHRiZXJfbW9yZV9wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xM19ueHRiZXJfbW9yZV9wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xM19ueHRiZXJfbW9yZV9od3RjbA==::ZzNfY29lZmZfMTNfbnh0YmVyX21vcmU=::Z2VuM19jb2VmZl8xM19ueHRiZXJfbW9yZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xM19ueHRiZXJfbGVzc19wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xM19ueHRiZXJfbGVzc19wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xM19ueHRiZXJfbGVzc19od3RjbA==::ZzNfY29lZmZfMTNfbnh0YmVyX2xlc3M=::Z2VuM19jb2VmZl8xM19ueHRiZXJfbGVzc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xM19yZXFiZXJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xM19yZXFiZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xM19iZXJfbWVhc19od3RjbA==::MA==::Z2VuM19jb2VmZl8xM19iZXJfbWVhc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNF9od3RjbA==::MA==::Z2VuM19jb2VmZl8xNF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNF9zZWxfaHd0Y2w=::cHJlc2V0XzE0::Z2VuM19jb2VmZl8xNF9zZWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNF9wcmVzZXRfaGludF9od3RjbA==::MA==::Z2VuM19jb2VmZl8xNF9wcmVzZXRfaGludF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNF9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xNF9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNF9ueHRiZXJfbW9yZV9od3RjbA==::ZzNfY29lZmZfMTRfbnh0YmVyX21vcmU=::Z2VuM19jb2VmZl8xNF9ueHRiZXJfbW9yZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNF9ueHRiZXJfbGVzc19wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xNF9ueHRiZXJfbGVzc19wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNF9ueHRiZXJfbGVzc19od3RjbA==::ZzNfY29lZmZfMTRfbnh0YmVyX2xlc3M=::Z2VuM19jb2VmZl8xNF9ueHRiZXJfbGVzc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNF9yZXFiZXJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xNF9yZXFiZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNF9iZXJfbWVhc19od3RjbA==::MA==::Z2VuM19jb2VmZl8xNF9iZXJfbWVhc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNV9od3RjbA==::MA==::Z2VuM19jb2VmZl8xNV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNV9zZWxfaHd0Y2w=::cHJlc2V0XzE1::Z2VuM19jb2VmZl8xNV9zZWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNV9wcmVzZXRfaGludF9od3RjbA==::MA==::Z2VuM19jb2VmZl8xNV9wcmVzZXRfaGludF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNV9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xNV9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNV9ueHRiZXJfbW9yZV9od3RjbA==::ZzNfY29lZmZfMTVfbnh0YmVyX21vcmU=::Z2VuM19jb2VmZl8xNV9ueHRiZXJfbW9yZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNV9ueHRiZXJfbGVzc19wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xNV9ueHRiZXJfbGVzc19wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNV9ueHRiZXJfbGVzc19od3RjbA==::ZzNfY29lZmZfMTVfbnh0YmVyX2xlc3M=::Z2VuM19jb2VmZl8xNV9ueHRiZXJfbGVzc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNV9yZXFiZXJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xNV9yZXFiZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNV9iZXJfbWVhc19od3RjbA==::MA==::Z2VuM19jb2VmZl8xNV9iZXJfbWVhc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNl9od3RjbA==::MA==::Z2VuM19jb2VmZl8xNl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNl9zZWxfaHd0Y2w=::cHJlc2V0XzE2::Z2VuM19jb2VmZl8xNl9zZWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNl9wcmVzZXRfaGludF9od3RjbA==::MA==::Z2VuM19jb2VmZl8xNl9wcmVzZXRfaGludF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNl9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xNl9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNl9ueHRiZXJfbW9yZV9od3RjbA==::ZzNfY29lZmZfMTZfbnh0YmVyX21vcmU=::Z2VuM19jb2VmZl8xNl9ueHRiZXJfbW9yZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNl9ueHRiZXJfbGVzc19wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xNl9ueHRiZXJfbGVzc19wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNl9ueHRiZXJfbGVzc19od3RjbA==::ZzNfY29lZmZfMTZfbnh0YmVyX2xlc3M=::Z2VuM19jb2VmZl8xNl9ueHRiZXJfbGVzc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNl9yZXFiZXJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xNl9yZXFiZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xNl9iZXJfbWVhc19od3RjbA==::MA==::Z2VuM19jb2VmZl8xNl9iZXJfbWVhc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xN19od3RjbA==::MA==::Z2VuM19jb2VmZl8xN19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xN19zZWxfaHd0Y2w=::cHJlc2V0XzE3::Z2VuM19jb2VmZl8xN19zZWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xN19wcmVzZXRfaGludF9od3RjbA==::MA==::Z2VuM19jb2VmZl8xN19wcmVzZXRfaGludF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xN19ueHRiZXJfbW9yZV9wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xN19ueHRiZXJfbW9yZV9wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xN19ueHRiZXJfbW9yZV9od3RjbA==::ZzNfY29lZmZfMTdfbnh0YmVyX21vcmU=::Z2VuM19jb2VmZl8xN19ueHRiZXJfbW9yZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xN19ueHRiZXJfbGVzc19wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xN19ueHRiZXJfbGVzc19wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xN19ueHRiZXJfbGVzc19od3RjbA==::ZzNfY29lZmZfMTdfbnh0YmVyX2xlc3M=::Z2VuM19jb2VmZl8xN19ueHRiZXJfbGVzc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xN19yZXFiZXJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xN19yZXFiZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xN19iZXJfbWVhc19od3RjbA==::MA==::Z2VuM19jb2VmZl8xN19iZXJfbWVhc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOF9od3RjbA==::MA==::Z2VuM19jb2VmZl8xOF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOF9zZWxfaHd0Y2w=::cHJlc2V0XzE4::Z2VuM19jb2VmZl8xOF9zZWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOF9wcmVzZXRfaGludF9od3RjbA==::MA==::Z2VuM19jb2VmZl8xOF9wcmVzZXRfaGludF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOF9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xOF9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOF9ueHRiZXJfbW9yZV9od3RjbA==::ZzNfY29lZmZfMThfbnh0YmVyX21vcmU=::Z2VuM19jb2VmZl8xOF9ueHRiZXJfbW9yZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOF9ueHRiZXJfbGVzc19wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xOF9ueHRiZXJfbGVzc19wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOF9ueHRiZXJfbGVzc19od3RjbA==::ZzNfY29lZmZfMThfbnh0YmVyX2xlc3M=::Z2VuM19jb2VmZl8xOF9ueHRiZXJfbGVzc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOF9yZXFiZXJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xOF9yZXFiZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOF9iZXJfbWVhc19od3RjbA==::MA==::Z2VuM19jb2VmZl8xOF9iZXJfbWVhc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOV9od3RjbA==::MA==::Z2VuM19jb2VmZl8xOV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOV9zZWxfaHd0Y2w=::cHJlc2V0XzE5::Z2VuM19jb2VmZl8xOV9zZWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOV9wcmVzZXRfaGludF9od3RjbA==::MA==::Z2VuM19jb2VmZl8xOV9wcmVzZXRfaGludF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOV9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xOV9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOV9ueHRiZXJfbW9yZV9od3RjbA==::ZzNfY29lZmZfMTlfbnh0YmVyX21vcmU=::Z2VuM19jb2VmZl8xOV9ueHRiZXJfbW9yZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOV9ueHRiZXJfbGVzc19wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xOV9ueHRiZXJfbGVzc19wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOV9ueHRiZXJfbGVzc19od3RjbA==::ZzNfY29lZmZfMTlfbnh0YmVyX2xlc3M=::Z2VuM19jb2VmZl8xOV9ueHRiZXJfbGVzc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOV9yZXFiZXJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8xOV9yZXFiZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8xOV9iZXJfbWVhc19od3RjbA==::MA==::Z2VuM19jb2VmZl8xOV9iZXJfbWVhc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMF9od3RjbA==::MA==::Z2VuM19jb2VmZl8yMF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMF9zZWxfaHd0Y2w=::cHJlc2V0XzIw::Z2VuM19jb2VmZl8yMF9zZWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMF9wcmVzZXRfaGludF9od3RjbA==::MA==::Z2VuM19jb2VmZl8yMF9wcmVzZXRfaGludF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMF9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8yMF9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMF9ueHRiZXJfbW9yZV9od3RjbA==::ZzNfY29lZmZfMjBfbnh0YmVyX21vcmU=::Z2VuM19jb2VmZl8yMF9ueHRiZXJfbW9yZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMF9ueHRiZXJfbGVzc19wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8yMF9ueHRiZXJfbGVzc19wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMF9ueHRiZXJfbGVzc19od3RjbA==::ZzNfY29lZmZfMjBfbnh0YmVyX2xlc3M=::Z2VuM19jb2VmZl8yMF9ueHRiZXJfbGVzc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMF9yZXFiZXJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8yMF9yZXFiZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMF9iZXJfbWVhc19od3RjbA==::MA==::Z2VuM19jb2VmZl8yMF9iZXJfbWVhc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMV9od3RjbA==::MA==::Z2VuM19jb2VmZl8yMV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMV9zZWxfaHd0Y2w=::cHJlc2V0XzIx::Z2VuM19jb2VmZl8yMV9zZWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMV9wcmVzZXRfaGludF9od3RjbA==::MA==::Z2VuM19jb2VmZl8yMV9wcmVzZXRfaGludF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMV9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8yMV9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMV9ueHRiZXJfbW9yZV9od3RjbA==::ZzNfY29lZmZfMjFfbnh0YmVyX21vcmU=::Z2VuM19jb2VmZl8yMV9ueHRiZXJfbW9yZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMV9ueHRiZXJfbGVzc19wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8yMV9ueHRiZXJfbGVzc19wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMV9ueHRiZXJfbGVzc19od3RjbA==::ZzNfY29lZmZfMjFfbnh0YmVyX2xlc3M=::Z2VuM19jb2VmZl8yMV9ueHRiZXJfbGVzc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMV9yZXFiZXJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8yMV9yZXFiZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMV9iZXJfbWVhc19od3RjbA==::MA==::Z2VuM19jb2VmZl8yMV9iZXJfbWVhc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMl9od3RjbA==::MA==::Z2VuM19jb2VmZl8yMl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMl9zZWxfaHd0Y2w=::cHJlc2V0XzIy::Z2VuM19jb2VmZl8yMl9zZWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMl9wcmVzZXRfaGludF9od3RjbA==::MA==::Z2VuM19jb2VmZl8yMl9wcmVzZXRfaGludF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMl9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8yMl9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMl9ueHRiZXJfbW9yZV9od3RjbA==::ZzNfY29lZmZfMjJfbnh0YmVyX21vcmU=::Z2VuM19jb2VmZl8yMl9ueHRiZXJfbW9yZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMl9ueHRiZXJfbGVzc19wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8yMl9ueHRiZXJfbGVzc19wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMl9ueHRiZXJfbGVzc19od3RjbA==::ZzNfY29lZmZfMjJfbnh0YmVyX2xlc3M=::Z2VuM19jb2VmZl8yMl9ueHRiZXJfbGVzc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMl9yZXFiZXJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8yMl9yZXFiZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yMl9iZXJfbWVhc19od3RjbA==::MA==::Z2VuM19jb2VmZl8yMl9iZXJfbWVhc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yM19od3RjbA==::MA==::Z2VuM19jb2VmZl8yM19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yM19zZWxfaHd0Y2w=::cHJlc2V0XzIz::Z2VuM19jb2VmZl8yM19zZWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yM19wcmVzZXRfaGludF9od3RjbA==::MA==::Z2VuM19jb2VmZl8yM19wcmVzZXRfaGludF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yM19ueHRiZXJfbW9yZV9wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8yM19ueHRiZXJfbW9yZV9wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yM19ueHRiZXJfbW9yZV9od3RjbA==::ZzNfY29lZmZfMjNfbnh0YmVyX21vcmU=::Z2VuM19jb2VmZl8yM19ueHRiZXJfbW9yZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yM19ueHRiZXJfbGVzc19wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8yM19ueHRiZXJfbGVzc19wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yM19ueHRiZXJfbGVzc19od3RjbA==::ZzNfY29lZmZfMjNfbnh0YmVyX2xlc3M=::Z2VuM19jb2VmZl8yM19ueHRiZXJfbGVzc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yM19yZXFiZXJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8yM19yZXFiZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yM19iZXJfbWVhc19od3RjbA==::MA==::Z2VuM19jb2VmZl8yM19iZXJfbWVhc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yNF9od3RjbA==::MA==::Z2VuM19jb2VmZl8yNF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yNF9zZWxfaHd0Y2w=::cHJlc2V0XzI0::Z2VuM19jb2VmZl8yNF9zZWxfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yNF9wcmVzZXRfaGludF9od3RjbA==::MA==::Z2VuM19jb2VmZl8yNF9wcmVzZXRfaGludF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yNF9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8yNF9ueHRiZXJfbW9yZV9wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yNF9ueHRiZXJfbW9yZV9od3RjbA==::ZzNfY29lZmZfMjRfbnh0YmVyX21vcmU=::Z2VuM19jb2VmZl8yNF9ueHRiZXJfbW9yZV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yNF9ueHRiZXJfbGVzc19wdHJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8yNF9ueHRiZXJfbGVzc19wdHJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yNF9ueHRiZXJfbGVzc19od3RjbA==::ZzNfY29lZmZfMjRfbnh0YmVyX2xlc3M=::Z2VuM19jb2VmZl8yNF9ueHRiZXJfbGVzc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yNF9yZXFiZXJfaHd0Y2w=::MA==::Z2VuM19jb2VmZl8yNF9yZXFiZXJfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19jb2VmZl8yNF9iZXJfbWVhc19od3RjbA==::MA==::Z2VuM19jb2VmZl8yNF9iZXJfbWVhc19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "aHd0Y2xfb3ZlcnJpZGVfZzN0eGNvZWY=::MA==::aHd0Y2xfb3ZlcnJpZGVfZzN0eGNvZWY="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19wcmVzZXRfY29lZmZfMV9od3RjbA==::MA==::Z2VuM19wcmVzZXRfY29lZmZfMV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19wcmVzZXRfY29lZmZfMl9od3RjbA==::MA==::Z2VuM19wcmVzZXRfY29lZmZfMl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19wcmVzZXRfY29lZmZfM19od3RjbA==::MA==::Z2VuM19wcmVzZXRfY29lZmZfM19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19wcmVzZXRfY29lZmZfNF9od3RjbA==::MA==::Z2VuM19wcmVzZXRfY29lZmZfNF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19wcmVzZXRfY29lZmZfNV9od3RjbA==::MA==::Z2VuM19wcmVzZXRfY29lZmZfNV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19wcmVzZXRfY29lZmZfNl9od3RjbA==::MA==::Z2VuM19wcmVzZXRfY29lZmZfNl9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19wcmVzZXRfY29lZmZfN19od3RjbA==::MA==::Z2VuM19wcmVzZXRfY29lZmZfN19od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19wcmVzZXRfY29lZmZfOF9od3RjbA==::MA==::Z2VuM19wcmVzZXRfY29lZmZfOF9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19wcmVzZXRfY29lZmZfOV9od3RjbA==::MA==::Z2VuM19wcmVzZXRfY29lZmZfOV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19wcmVzZXRfY29lZmZfMTBfaHd0Y2w=::MA==::Z2VuM19wcmVzZXRfY29lZmZfMTBfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19wcmVzZXRfY29lZmZfMTFfaHd0Y2w=::MA==::Z2VuM19wcmVzZXRfY29lZmZfMTFfaHd0Y2w="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19sb3dfZnJlcV9od3RjbA==::MA==::Z2VuM19sb3dfZnJlcV9od3RjbA=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "ZnVsbF9zd2luZ19od3RjbA==::MzU=::RnVsbCBTd2luZw=="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Z2VuM19mdWxsX3N3aW5nX2h3dGNs::MzU=::Z2VuM19mdWxsX3N3aW5nX2h3dGNs"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "Y2hhbmdlX2RlZW1waGFzaXNfaHd0Y2w=::MA==::R2VuMiB0cmFuc21pdCBkZWVtcGhhc2lz"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "dXNlX2F0eF9wbGxfaHd0Y2w=::MA==::VXNlIEFUWCBQTEw="
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_COMPONENT_PARAMETER "bG93X2xhdGVuY3lfbW9kZV9od3RjbA==::MA==::RW5hYmxlIENvbW1vbiBDbG9jayBDb25maWd1cmF0aW9uIChmb3IgbG93ZXIgbGF0ZW5jeSk="
+
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "QSysDE5QGen3x4If128.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_h.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altpcie_reconfig_driver.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_xcvr_functions.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_h.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_resync.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_dfe_cal_sweep_h.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cal_seq.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xreconf_cif.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xreconf_uif.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xreconf_basic_acq.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_analog.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_analog_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xreconf_analog_datactrl.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xreconf_analog_rmw.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xreconf_analog_ctrlsm.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_offset_cancellation.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_offset_cancellation_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_eyemon.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_eyemon_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_eyemon_ctrl_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_eyemon_ber_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/ber_reader_dcfifo.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/step_to_mon_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/mon_to_step_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dfe.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dfe_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dfe_reg_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dfe_cal_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dfe_cal_sweep_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dfe_cal_sweep_datapath_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dfe_oc_cal_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dfe_pi_phase_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dfe_step_to_mon_en_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dfe_adapt_tap_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dfe_ctrl_mux_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dfe_local_reset_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dfe_cal_sim_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dfe_adapt_tap_sim_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_adce.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_adce_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_adce_datactrl_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dcd.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dcd_sv.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dcd_cal.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dcd_control.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dcd_datapath.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dcd_pll_reset.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dcd_eye_width.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dcd_align_clk.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dcd_get_sum.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_dcd_cal_sim_model.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_mif.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_reconfig_mif.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_reconfig_mif_ctrl.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_reconfig_mif_avmm.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_pll.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_reconfig_pll.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_reconfig_pll_ctrl.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_soc.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_ram.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_ram.hex"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_direct.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xrbasic_l2p_addr.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xrbasic_l2p_ch.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xrbasic_l2p_rom.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xrbasic_lif_csr.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xrbasic_lif.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_reconfig_basic.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_arbiter_acq.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_basic.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SDC_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig.sdc"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_arbiter.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_m2s.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_wait_generate.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_csr_selector.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_reconfig_bundle_to_basic.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_reconfig_cpu.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_a.mif"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_b.mif"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_test_bench.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_irq_mapper.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_synchronizer.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.sdc"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_translator.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_translator.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_agent.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_agent.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_burst_uncompressor.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_sc_fifo.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router_001.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router_002.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router_003.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux_001.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_arbitrator.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux_001.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux_001.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_avalon_st_adapter.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/plain_files.txt"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/qencrypt_files.txt"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altpcie_sv_hip_ast_hwtcl.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altpcie_hip_256_pipen1b.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altpcie_rs_serdes.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altpcie_rs_hip.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altpcie_scfifo.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altpcie_sv_scfifo_ext.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altpcie_scfifo_sv.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altpcie_sv_gbfifo.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altpcie_tlp_inspector.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altpcie_tlp_inspector_trigger.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altpcie_hip_eq_dprio.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altpcie_hip_eq_bypass_ph3.v"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altpcie_tlp_inspector_monitor.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altpcie_tlp_inspector_cseb.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_pcs.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_pcs_ch.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_pma.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_reconfig_bundle_to_xcvr.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_reconfig_bundle_to_ip.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_reconfig_bundle_merger.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_rx_pma.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_tx_pma.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_tx_pma_ch.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_avmm_csr.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_avmm_dcd.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_avmm.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_data_adapter.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_native.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_plls.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_hssi_10g_rx_pcs_rbc.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_hssi_10g_tx_pcs_rbc.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_hssi_8g_rx_pcs_rbc.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_hssi_8g_tx_pcs_rbc.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_hssi_8g_pcs_aggregate_rbc.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_hssi_common_pcs_pma_interface_rbc.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_hssi_common_pld_pcs_interface_rbc.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_hssi_pipe_gen1_2_rbc.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_hssi_pipe_gen3_rbc.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_hssi_rx_pcs_pma_interface_rbc.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_hssi_rx_pld_pcs_interface_rbc.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_hssi_tx_pcs_pma_interface_rbc.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_hssi_tx_pld_pcs_interface_rbc.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_emsip_adapter.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/sv_xcvr_pipe_native.sv"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_pcie_sv_hip_ast_pipen1b.sdc"]
+set_global_assignment -library "QSysDE5QGen3x4If128" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_pcie_sv_hip_ast_rs_serdes.sdc"]
+
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_TOOL_NAME "alt_xcvr_reconfig"
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "alt_xcvr_reconfig" -library "QSysDE5QGen3x4If128" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_TOOL_NAME "altera_pcie_sv_hip_ast"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "altpcie_sv_hip_ast_hwtcl" -library "QSysDE5QGen3x4If128" -name IP_TOOL_ENV "Qsys"

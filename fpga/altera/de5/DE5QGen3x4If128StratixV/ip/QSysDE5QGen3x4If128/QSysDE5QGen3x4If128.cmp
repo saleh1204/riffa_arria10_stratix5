@@ -1,0 +1,88 @@
+	component QSysDE5QGen3x4If128 is
+		port (
+			drvstat_derr_cor_ext_rcv   : in  std_logic                      := 'X';             -- derr_cor_ext_rcv
+			drvstat_derr_cor_ext_rpl   : in  std_logic                      := 'X';             -- derr_cor_ext_rpl
+			drvstat_derr_rpl           : in  std_logic                      := 'X';             -- derr_rpl
+			drvstat_dlup_exit          : in  std_logic                      := 'X';             -- dlup_exit
+			drvstat_ev128ns            : in  std_logic                      := 'X';             -- ev128ns
+			drvstat_ev1us              : in  std_logic                      := 'X';             -- ev1us
+			drvstat_hotrst_exit        : in  std_logic                      := 'X';             -- hotrst_exit
+			drvstat_int_status         : in  std_logic_vector(3 downto 0)   := (others => 'X'); -- int_status
+			drvstat_l2_exit            : in  std_logic                      := 'X';             -- l2_exit
+			drvstat_lane_act           : in  std_logic_vector(3 downto 0)   := (others => 'X'); -- lane_act
+			drvstat_ltssmstate         : in  std_logic_vector(4 downto 0)   := (others => 'X'); -- ltssmstate
+			drvstat_dlup               : in  std_logic                      := 'X';             -- dlup
+			drvstat_rx_par_err         : in  std_logic                      := 'X';             -- rx_par_err
+			drvstat_tx_par_err         : in  std_logic_vector(1 downto 0)   := (others => 'X'); -- tx_par_err
+			drvstat_cfg_par_err        : in  std_logic                      := 'X';             -- cfg_par_err
+			drvstat_ko_cpl_spc_header  : in  std_logic_vector(7 downto 0)   := (others => 'X'); -- ko_cpl_spc_header
+			drvstat_ko_cpl_spc_data    : in  std_logic_vector(11 downto 0)  := (others => 'X'); -- ko_cpl_spc_data
+			mgmtclk_clk                : in  std_logic                      := 'X';             -- clk
+			mgmtrst_reset              : in  std_logic                      := 'X';             -- reset
+			pciecfg_hpg_ctrler         : in  std_logic_vector(4 downto 0)   := (others => 'X'); -- hpg_ctrler
+			pciecfg_tl_cfg_add         : out std_logic_vector(3 downto 0);                      -- tl_cfg_add
+			pciecfg_tl_cfg_ctl         : out std_logic_vector(31 downto 0);                     -- tl_cfg_ctl
+			pciecfg_tl_cfg_sts         : out std_logic_vector(52 downto 0);                     -- tl_cfg_sts
+			pciecfg_cpl_err            : in  std_logic_vector(6 downto 0)   := (others => 'X'); -- cpl_err
+			pciecfg_cpl_pending        : in  std_logic                      := 'X';             -- cpl_pending
+			pciecoreclk_clk            : out std_logic;                                         -- clk
+			pciehip_reset_status       : out std_logic;                                         -- reset_status
+			pciehip_serdes_pll_locked  : out std_logic;                                         -- serdes_pll_locked
+			pciehip_pld_clk_inuse      : out std_logic;                                         -- pld_clk_inuse
+			pciehip_pld_core_ready     : in  std_logic                      := 'X';             -- pld_core_ready
+			pciehip_testin_zero        : out std_logic;                                         -- testin_zero
+			pciemsi_app_int_sts        : in  std_logic                      := 'X';             -- app_int_sts
+			pciemsi_app_msi_num        : in  std_logic_vector(4 downto 0)   := (others => 'X'); -- app_msi_num
+			pciemsi_app_msi_req        : in  std_logic                      := 'X';             -- app_msi_req
+			pciemsi_app_msi_tc         : in  std_logic_vector(2 downto 0)   := (others => 'X'); -- app_msi_tc
+			pciemsi_app_int_ack        : out std_logic;                                         -- app_int_ack
+			pciemsi_app_msi_ack        : out std_logic;                                         -- app_msi_ack
+			pcienpor_npor              : in  std_logic                      := 'X';             -- npor
+			pcienpor_pin_perst         : in  std_logic                      := 'X';             -- pin_perst
+			pciepld_clk                : in  std_logic                      := 'X';             -- clk
+			pcierefclk_clk             : in  std_logic                      := 'X';             -- clk
+			pcieserial_rx_in0          : in  std_logic                      := 'X';             -- rx_in0
+			pcieserial_rx_in1          : in  std_logic                      := 'X';             -- rx_in1
+			pcieserial_rx_in2          : in  std_logic                      := 'X';             -- rx_in2
+			pcieserial_rx_in3          : in  std_logic                      := 'X';             -- rx_in3
+			pcieserial_tx_out0         : out std_logic;                                         -- tx_out0
+			pcieserial_tx_out1         : out std_logic;                                         -- tx_out1
+			pcieserial_tx_out2         : out std_logic;                                         -- tx_out2
+			pcieserial_tx_out3         : out std_logic;                                         -- tx_out3
+			pciestat_derr_cor_ext_rcv  : out std_logic;                                         -- derr_cor_ext_rcv
+			pciestat_derr_cor_ext_rpl  : out std_logic;                                         -- derr_cor_ext_rpl
+			pciestat_derr_rpl          : out std_logic;                                         -- derr_rpl
+			pciestat_dlup              : out std_logic;                                         -- dlup
+			pciestat_dlup_exit         : out std_logic;                                         -- dlup_exit
+			pciestat_ev128ns           : out std_logic;                                         -- ev128ns
+			pciestat_ev1us             : out std_logic;                                         -- ev1us
+			pciestat_hotrst_exit       : out std_logic;                                         -- hotrst_exit
+			pciestat_int_status        : out std_logic_vector(3 downto 0);                      -- int_status
+			pciestat_l2_exit           : out std_logic;                                         -- l2_exit
+			pciestat_lane_act          : out std_logic_vector(3 downto 0);                      -- lane_act
+			pciestat_ltssmstate        : out std_logic_vector(4 downto 0);                      -- ltssmstate
+			pciestat_rx_par_err        : out std_logic;                                         -- rx_par_err
+			pciestat_tx_par_err        : out std_logic_vector(1 downto 0);                      -- tx_par_err
+			pciestat_cfg_par_err       : out std_logic;                                         -- cfg_par_err
+			pciestat_ko_cpl_spc_header : out std_logic_vector(7 downto 0);                      -- ko_cpl_spc_header
+			pciestat_ko_cpl_spc_data   : out std_logic_vector(11 downto 0);                     -- ko_cpl_spc_data
+			reconfigpldclk_clk         : in  std_logic                      := 'X';             -- clk
+			reconfigrefclk_clk         : in  std_logic                      := 'X';             -- clk
+			reconfigrst_reset          : in  std_logic                      := 'X';             -- reset
+			rx_st_startofpacket        : out std_logic_vector(0 downto 0);                      -- startofpacket
+			rx_st_endofpacket          : out std_logic_vector(0 downto 0);                      -- endofpacket
+			rx_st_error                : out std_logic_vector(0 downto 0);                      -- error
+			rx_st_valid                : out std_logic_vector(0 downto 0);                      -- valid
+			rx_st_empty                : out std_logic_vector(1 downto 0);                      -- empty
+			rx_st_ready                : in  std_logic                      := 'X';             -- ready
+			rx_st_data                 : out std_logic_vector(127 downto 0);                    -- data
+			tx_st_startofpacket        : in  std_logic_vector(0 downto 0)   := (others => 'X'); -- startofpacket
+			tx_st_endofpacket          : in  std_logic_vector(0 downto 0)   := (others => 'X'); -- endofpacket
+			tx_st_error                : in  std_logic_vector(0 downto 0)   := (others => 'X'); -- error
+			tx_st_valid                : in  std_logic_vector(0 downto 0)   := (others => 'X'); -- valid
+			tx_st_empty                : in  std_logic_vector(1 downto 0)   := (others => 'X'); -- empty
+			tx_st_ready                : out std_logic;                                         -- ready
+			tx_st_data                 : in  std_logic_vector(127 downto 0) := (others => 'X')  -- data
+		);
+	end component QSysDE5QGen3x4If128;
+

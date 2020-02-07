@@ -1,0 +1,521 @@
+Info: Starting: Create simulation model
+Info: qsys-generate /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/simulation --family="Stratix V" --part=5SGSMD5K2F40C2
+Progress: Loading ip/QSysDE5QGen3x4If128.qsys
+Progress: Reading input file
+Progress: Adding PCIeGen3x4If128 [altera_pcie_sv_hip_ast 17.1]
+Progress: Parameterizing module PCIeGen3x4If128
+Progress: Adding XCVRCtrlGen3x4 [alt_xcvr_reconfig 17.1]
+Progress: Parameterizing module XCVRCtrlGen3x4
+Progress: Adding XCVRDrvGen3x4 [altera_pcie_reconfig_driver 17.1]
+Progress: Parameterizing module XCVRDrvGen3x4
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Family: Stratix V
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Stratix V Hard IP for PCI Express v17.1
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: The application clock frequency (pld_clk) is 250 Mhz
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: 6 reconfiguration interfaces are required for connection to the external reconfiguration controller and the reconfig driver
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Credit allocation in the 16 KBytes receive buffer:
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Posted    : header=58  data=897
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Non posted: header=52  data=0
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Completion: header=1 data=16
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.rx_st: The empty signal width should be 1 bits.  
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.rx_st: Interface must have an associated reset
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.tx_st: The empty signal width should be 1 bits.  
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.tx_st: Interface must have an associated reset
+Info: QSysDE5QGen3x4If128.XCVRCtrlGen3x4: reconfig_from_xcvr port width is 6*46 bits
+Info: QSysDE5QGen3x4If128.XCVRCtrlGen3x4: reconfig_to_xcvr port width is 6*70 bits
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.lmi must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.power_mngt must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.rx_bar_be must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.tx_cred must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.hip_pipe must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.hip_ctrl must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.rx_st: PCIeGen3x4If128.rx_st does not have an associated reset
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.tx_st: PCIeGen3x4If128.tx_st does not have an associated reset
+Warning: QSysDE5QGen3x4If128.: You have exported the interface PCIeGen3x4If128.rx_st but not its associated reset interface.  Export associatedReset of PCIeGen3x4If128.rx_st
+Warning: QSysDE5QGen3x4If128.: You have exported the interface PCIeGen3x4If128.tx_st but not its associated reset interface.  Export the driver(s) of associatedReset of PCIeGen3x4If128.tx_st
+Info: QSysDE5QGen3x4If128: Generating QSysDE5QGen3x4If128 "QSysDE5QGen3x4If128" for SIM_VERILOG
+Info: PCIeGen3x4If128: add_fileset_file ./altera_xcvr_functions.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/altera_xcvr_functions.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_pcs.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_pcs.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_pcs_ch.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_pcs_ch.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_pma.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_pma.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_reconfig_bundle_to_xcvr.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_reconfig_bundle_to_xcvr.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_reconfig_bundle_to_ip.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_reconfig_bundle_to_ip.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_reconfig_bundle_merger.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_reconfig_bundle_merger.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_rx_pma.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_rx_pma.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_tx_pma.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_tx_pma.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_tx_pma_ch.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_tx_pma_ch.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_h.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_h.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_avmm_csr.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_avmm_csr.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_avmm_dcd.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_avmm_dcd.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_avmm.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_avmm.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_data_adapter.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_data_adapter.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_native.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_native.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_plls.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_plls.sv
+Info: PCIeGen3x4If128: add_fileset_file ./alt_xcvr_resync.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_resync.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_10g_rx_pcs_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_10g_rx_pcs_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_10g_tx_pcs_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_10g_tx_pcs_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_8g_rx_pcs_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_8g_rx_pcs_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_8g_tx_pcs_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_8g_tx_pcs_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_8g_pcs_aggregate_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_8g_pcs_aggregate_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_common_pcs_pma_interface_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_common_pcs_pma_interface_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_common_pld_pcs_interface_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_common_pld_pcs_interface_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_pipe_gen1_2_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_pipe_gen1_2_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_pipe_gen3_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_pipe_gen3_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_rx_pcs_pma_interface_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_rx_pcs_pma_interface_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_rx_pld_pcs_interface_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_rx_pld_pcs_interface_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_tx_pcs_pma_interface_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_tx_pcs_pma_interface_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_tx_pld_pcs_interface_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_tx_pld_pcs_interface_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_emsip_adapter.sv SYSTEM_VERILOG PATH ../../altera_pcie_pipe/sv/sv_xcvr_emsip_adapter.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_pipe_native.sv SYSTEM_VERILOG PATH ../../altera_pcie_pipe/sv/sv_xcvr_pipe_native.sv
+Info: PCIeGen3x4If128: "QSysDE5QGen3x4If128" instantiated altera_pcie_sv_hip_ast "PCIeGen3x4If128"
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_xcvr_functions.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/altera_xcvr_functions.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/altera_xcvr_functions.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/altera_xcvr_functions.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_h.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_h.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/sv_xcvr_h.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/sv/sv_xcvr_h.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_resync.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_resync.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_resync.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_resync.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_h.sv SYSTEM_VERILOG PATH .//alt_xcvr_reconfig_h.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_h.sv SYSTEM_VERILOG_ENCRYPT PATH ./mentor/alt_xcvr_reconfig_h.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_dfe_cal_sweep_h.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/sv_xcvr_dfe_cal_sweep_h.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/sv_xcvr_dfe_cal_sweep_h.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dfe/mentor/sv_xcvr_dfe_cal_sweep_h.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig.sv SYSTEM_VERILOG PATH .//alt_xcvr_reconfig.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig.sv SYSTEM_VERILOG_ENCRYPT PATH ./mentor/alt_xcvr_reconfig.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_sv.sv SYSTEM_VERILOG PATH .//alt_xcvr_reconfig_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ./mentor/alt_xcvr_reconfig_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cal_seq.sv SYSTEM_VERILOG PATH .//alt_xcvr_reconfig_cal_seq.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_cal_seq.sv SYSTEM_VERILOG_ENCRYPT PATH ./mentor/alt_xcvr_reconfig_cal_seq.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xreconf_cif.sv SYSTEM_VERILOG PATH .//alt_xreconf_cif.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xreconf_cif.sv SYSTEM_VERILOG_ENCRYPT PATH ./mentor/alt_xreconf_cif.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xreconf_uif.sv SYSTEM_VERILOG PATH .//alt_xreconf_uif.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xreconf_uif.sv SYSTEM_VERILOG_ENCRYPT PATH ./mentor/alt_xreconf_uif.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xreconf_basic_acq.sv SYSTEM_VERILOG PATH .//alt_xreconf_basic_acq.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xreconf_basic_acq.sv SYSTEM_VERILOG_ENCRYPT PATH ./mentor/alt_xreconf_basic_acq.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_analog.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_analog/alt_xcvr_reconfig_analog.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_analog.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_analog/mentor/alt_xcvr_reconfig_analog.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_analog_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_analog/alt_xcvr_reconfig_analog_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_analog_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_analog/mentor/alt_xcvr_reconfig_analog_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xreconf_analog_datactrl.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_analog/alt_xreconf_analog_datactrl.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xreconf_analog_datactrl.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_analog/mentor/alt_xreconf_analog_datactrl.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xreconf_analog_rmw.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_analog/alt_xreconf_analog_rmw.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xreconf_analog_rmw.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_analog/mentor/alt_xreconf_analog_rmw.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xreconf_analog_ctrlsm.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_analog/alt_xreconf_analog_ctrlsm.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xreconf_analog_ctrlsm.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_analog/mentor/alt_xreconf_analog_ctrlsm.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_offset_cancellation.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_offset_cancellation/alt_xcvr_reconfig_offset_cancellation.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_offset_cancellation.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_offset_cancellation/mentor/alt_xcvr_reconfig_offset_cancellation.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_offset_cancellation_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_offset_cancellation/alt_xcvr_reconfig_offset_cancellation_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_offset_cancellation_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_offset_cancellation/mentor/alt_xcvr_reconfig_offset_cancellation_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_eyemon.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_eyemon/alt_xcvr_reconfig_eyemon.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_eyemon.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_eyemon/mentor/alt_xcvr_reconfig_eyemon.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_eyemon_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_eyemon/alt_xcvr_reconfig_eyemon_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_eyemon_ctrl_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_eyemon/alt_xcvr_reconfig_eyemon_ctrl_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_eyemon_ber_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_eyemon/alt_xcvr_reconfig_eyemon_ber_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./ber_reader_dcfifo.v VERILOG PATH ../alt_xcvr_reconfig_eyemon/ber_reader_dcfifo.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./step_to_mon_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_eyemon/step_to_mon_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mon_to_step_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_eyemon/mon_to_step_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_eyemon_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_eyemon/mentor/alt_xcvr_reconfig_eyemon_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_eyemon_ctrl_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_eyemon/mentor/alt_xcvr_reconfig_eyemon_ctrl_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_eyemon_ber_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_eyemon/mentor/alt_xcvr_reconfig_eyemon_ber_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/ber_reader_dcfifo.v VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_eyemon/mentor/ber_reader_dcfifo.v MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/step_to_mon_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_eyemon/mentor/step_to_mon_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/mon_to_step_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_eyemon/mentor/mon_to_step_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dfe.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dfe/mentor/alt_xcvr_reconfig_dfe.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_reg_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_reg_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_cal_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_cal_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_cal_sweep_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_cal_sweep_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_cal_sweep_datapath_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_cal_sweep_datapath_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_oc_cal_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_oc_cal_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_pi_phase_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_pi_phase_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_step_to_mon_en_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_step_to_mon_en_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_adapt_tap_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_adapt_tap_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_ctrl_mux_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_ctrl_mux_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_local_reset_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_local_reset_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_cal_sim_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_cal_sim_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_adapt_tap_sim_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_adapt_tap_sim_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dfe_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dfe/mentor/alt_xcvr_reconfig_dfe_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dfe_reg_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dfe/mentor/alt_xcvr_reconfig_dfe_reg_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dfe_cal_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dfe/mentor/alt_xcvr_reconfig_dfe_cal_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dfe_cal_sweep_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dfe/mentor/alt_xcvr_reconfig_dfe_cal_sweep_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dfe_cal_sweep_datapath_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dfe/mentor/alt_xcvr_reconfig_dfe_cal_sweep_datapath_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dfe_oc_cal_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dfe/mentor/alt_xcvr_reconfig_dfe_oc_cal_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dfe_pi_phase_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dfe/mentor/alt_xcvr_reconfig_dfe_pi_phase_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dfe_step_to_mon_en_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dfe/mentor/alt_xcvr_reconfig_dfe_step_to_mon_en_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dfe_adapt_tap_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dfe/mentor/alt_xcvr_reconfig_dfe_adapt_tap_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dfe_ctrl_mux_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dfe/mentor/alt_xcvr_reconfig_dfe_ctrl_mux_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dfe_local_reset_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dfe/mentor/alt_xcvr_reconfig_dfe_local_reset_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dfe_cal_sim_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dfe/mentor/alt_xcvr_reconfig_dfe_cal_sim_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dfe_adapt_tap_sim_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dfe/mentor/alt_xcvr_reconfig_dfe_adapt_tap_sim_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_adce.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_adce/alt_xcvr_reconfig_adce.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_adce.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_adce/mentor/alt_xcvr_reconfig_adce.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_adce_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_adce/alt_xcvr_reconfig_adce_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_adce_datactrl_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_adce/alt_xcvr_reconfig_adce_datactrl_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_adce_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_adce/mentor/alt_xcvr_reconfig_adce_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_adce_datactrl_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_adce/mentor/alt_xcvr_reconfig_adce_datactrl_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dcd.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dcd/mentor/alt_xcvr_reconfig_dcd.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_cal.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_cal.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_control.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_control.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_datapath.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_datapath.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_pll_reset.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_pll_reset.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_eye_width.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_eye_width.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_align_clk.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_align_clk.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_get_sum.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_get_sum.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_cal_sim_model.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_cal_sim_model.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dcd_sv.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dcd/mentor/alt_xcvr_reconfig_dcd_sv.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dcd_cal.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dcd/mentor/alt_xcvr_reconfig_dcd_cal.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dcd_control.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dcd/mentor/alt_xcvr_reconfig_dcd_control.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dcd_datapath.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dcd/mentor/alt_xcvr_reconfig_dcd_datapath.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dcd_pll_reset.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dcd/mentor/alt_xcvr_reconfig_dcd_pll_reset.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dcd_eye_width.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dcd/mentor/alt_xcvr_reconfig_dcd_eye_width.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dcd_align_clk.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dcd/mentor/alt_xcvr_reconfig_dcd_align_clk.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dcd_get_sum.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dcd/mentor/alt_xcvr_reconfig_dcd_get_sum.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_dcd_cal_sim_model.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_dcd/mentor/alt_xcvr_reconfig_dcd_cal_sim_model.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_mif.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_mif/alt_xcvr_reconfig_mif.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_mif.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_mif/mentor/alt_xcvr_reconfig_mif.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_reconfig_mif.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_mif/sv_xcvr_reconfig_mif.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_reconfig_mif_ctrl.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_mif/sv_xcvr_reconfig_mif_ctrl.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_reconfig_mif_avmm.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_mif/sv_xcvr_reconfig_mif_avmm.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/sv_xcvr_reconfig_mif.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_mif/mentor/sv_xcvr_reconfig_mif.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/sv_xcvr_reconfig_mif_ctrl.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_mif/mentor/sv_xcvr_reconfig_mif_ctrl.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/sv_xcvr_reconfig_mif_avmm.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_mif/mentor/sv_xcvr_reconfig_mif_avmm.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_pll.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_pll/alt_xcvr_reconfig_pll.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_pll.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_pll/mentor/alt_xcvr_reconfig_pll.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_reconfig_pll.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_pll/sv_xcvr_reconfig_pll.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_reconfig_pll_ctrl.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_pll/sv_xcvr_reconfig_pll_ctrl.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/sv_xcvr_reconfig_pll.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_pll/mentor/sv_xcvr_reconfig_pll.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/sv_xcvr_reconfig_pll_ctrl.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_pll/mentor/sv_xcvr_reconfig_pll_ctrl.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_soc.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_soc/alt_xcvr_reconfig_soc.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_ram.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_soc/alt_xcvr_reconfig_cpu_ram.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_ram.hex OTHER PATH ../alt_xcvr_reconfig_soc/software/alt_xcvr_reconfig/mem_init/alt_xcvr_reconfig_cpu_ram.hex
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_direct.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_direct/alt_xcvr_reconfig_direct.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xrbasic_l2p_addr.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/sv_xrbasic_l2p_addr.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xrbasic_l2p_ch.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/sv_xrbasic_l2p_ch.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xrbasic_l2p_rom.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/sv_xrbasic_l2p_rom.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xrbasic_lif_csr.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/sv_xrbasic_lif_csr.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xrbasic_lif.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/sv_xrbasic_lif.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_reconfig_basic.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/sv_xcvr_reconfig_basic.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_arbiter_acq.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/alt_arbiter_acq.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_basic.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/alt_xcvr_reconfig_basic.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/sv_xrbasic_l2p_addr.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_basic/mentor/sv_xrbasic_l2p_addr.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/sv_xrbasic_l2p_ch.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_basic/mentor/sv_xrbasic_l2p_ch.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/sv_xrbasic_l2p_rom.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_basic/mentor/sv_xrbasic_l2p_rom.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/sv_xrbasic_lif_csr.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_basic/mentor/sv_xrbasic_lif_csr.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/sv_xrbasic_lif.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_basic/mentor/sv_xrbasic_lif.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/sv_xcvr_reconfig_basic.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_basic/mentor/sv_xcvr_reconfig_basic.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_arbiter_acq.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_basic/mentor/alt_arbiter_acq.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_reconfig_basic.sv SYSTEM_VERILOG_ENCRYPT PATH ../alt_xcvr_reconfig_basic/mentor/alt_xcvr_reconfig_basic.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_arbiter.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_arbiter.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_m2s.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_m2s.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_wait_generate.v VERILOG PATH ../../altera_xcvr_generic/ctrl/altera_wait_generate.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_csr_selector.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_csr_selector.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_arbiter.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_arbiter.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_m2s.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_m2s.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/altera_wait_generate.v VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/altera_wait_generate.v MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/alt_xcvr_csr_selector.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_csr_selector.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_reconfig_bundle_to_basic.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_reconfig_bundle_to_basic.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mentor/sv_reconfig_bundle_to_basic.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/sv/sv_reconfig_bundle_to_basic.sv MENTOR_SPECIFIC
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/alt_xcvr_reconfig_cpu.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_a.dat OTHER PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_a.dat
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_reconfig_cpu_test_bench.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_test_bench.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_b.mif OTHER PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_b.mif
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_a.mif OTHER PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_a.mif
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_a.hex OTHER PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_a.hex
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_reconfig_cpu_nios2_waves.do OTHER PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_nios2_waves.do
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_reconfig_cpu.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_b.hex OTHER PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_b.hex
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_b.dat OTHER PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_b.dat
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_irq_mapper.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_irq_mapper.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_reset_controller.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/altera_reset_controller.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_reset_synchronizer.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/altera_reset_synchronizer.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_reset_controller.sdc OTHER PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/altera_reset_controller.sdc
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_merlin_master_translator.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/altera_merlin_master_translator.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_merlin_slave_translator.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/altera_merlin_slave_translator.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_merlin_master_agent.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/altera_merlin_master_agent.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_merlin_slave_agent.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/altera_merlin_slave_agent.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_merlin_burst_uncompressor.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/altera_merlin_burst_uncompressor.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_avalon_sc_fifo.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/altera_avalon_sc_fifo.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_router.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_router_001.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router_001.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_router_002.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router_002.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_router_003.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router_003.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux_001.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux_001.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_merlin_arbitrator.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/altera_merlin_arbitrator.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux_001.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux_001.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux_001.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux_001.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_avalon_st_adapter.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_avalon_st_adapter.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0003_XCVRCtrlGen3x4_gen/SIM_VERILOG/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+Info: XCVRCtrlGen3x4: "QSysDE5QGen3x4If128" instantiated alt_xcvr_reconfig "XCVRCtrlGen3x4"
+Info: Reusing file /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/simulation/submodules/altera_xcvr_functions.sv
+Info: Reusing file /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/simulation/submodules/sv_xcvr_h.sv
+Info: Reusing file /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/simulation/submodules/alt_xcvr_resync.sv
+Warning: Overwriting different file /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/simulation/submodules/plain_files.txt
+Info: XCVRDrvGen3x4: "QSysDE5QGen3x4If128" instantiated altera_pcie_reconfig_driver "XCVRDrvGen3x4"
+Info: Reusing file /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/simulation/submodules/alt_xcvr_reconfig_h.sv
+Info: QSysDE5QGen3x4If128: Done "QSysDE5QGen3x4If128" with 4 modules, 237 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=/home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/QSysDE5QGen3x4If128.spd --output-directory=/home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=/home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/QSysDE5QGen3x4If128.spd --output-directory=/home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	3 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128.qsys --block-symbol-file --output-directory=/home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128 --family="Stratix V" --part=5SGSMD5K2F40C2
+Progress: Loading ip/QSysDE5QGen3x4If128.qsys
+Progress: Reading input file
+Progress: Adding PCIeGen3x4If128 [altera_pcie_sv_hip_ast 17.1]
+Progress: Parameterizing module PCIeGen3x4If128
+Progress: Adding XCVRCtrlGen3x4 [alt_xcvr_reconfig 17.1]
+Progress: Parameterizing module XCVRCtrlGen3x4
+Progress: Adding XCVRDrvGen3x4 [altera_pcie_reconfig_driver 17.1]
+Progress: Parameterizing module XCVRDrvGen3x4
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Family: Stratix V
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Stratix V Hard IP for PCI Express v17.1
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: The application clock frequency (pld_clk) is 250 Mhz
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: 6 reconfiguration interfaces are required for connection to the external reconfiguration controller and the reconfig driver
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Credit allocation in the 16 KBytes receive buffer:
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Posted    : header=58  data=897
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Non posted: header=52  data=0
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Completion: header=1 data=16
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.rx_st: The empty signal width should be 1 bits.  
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.rx_st: Interface must have an associated reset
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.tx_st: The empty signal width should be 1 bits.  
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.tx_st: Interface must have an associated reset
+Info: QSysDE5QGen3x4If128.XCVRCtrlGen3x4: reconfig_from_xcvr port width is 6*46 bits
+Info: QSysDE5QGen3x4If128.XCVRCtrlGen3x4: reconfig_to_xcvr port width is 6*70 bits
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.lmi must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.power_mngt must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.rx_bar_be must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.tx_cred must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.hip_pipe must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.hip_ctrl must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.rx_st: PCIeGen3x4If128.rx_st does not have an associated reset
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.tx_st: PCIeGen3x4If128.tx_st does not have an associated reset
+Warning: QSysDE5QGen3x4If128.: You have exported the interface PCIeGen3x4If128.rx_st but not its associated reset interface.  Export associatedReset of PCIeGen3x4If128.rx_st
+Warning: QSysDE5QGen3x4If128.: You have exported the interface PCIeGen3x4If128.tx_st but not its associated reset interface.  Export the driver(s) of associatedReset of PCIeGen3x4If128.tx_st
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128.qsys --synthesis=VERILOG --output-directory=/home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/synthesis --family="Stratix V" --part=5SGSMD5K2F40C2
+Progress: Loading ip/QSysDE5QGen3x4If128.qsys
+Progress: Reading input file
+Progress: Adding PCIeGen3x4If128 [altera_pcie_sv_hip_ast 17.1]
+Progress: Parameterizing module PCIeGen3x4If128
+Progress: Adding XCVRCtrlGen3x4 [alt_xcvr_reconfig 17.1]
+Progress: Parameterizing module XCVRCtrlGen3x4
+Progress: Adding XCVRDrvGen3x4 [altera_pcie_reconfig_driver 17.1]
+Progress: Parameterizing module XCVRDrvGen3x4
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Family: Stratix V
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Stratix V Hard IP for PCI Express v17.1
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: The application clock frequency (pld_clk) is 250 Mhz
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: 6 reconfiguration interfaces are required for connection to the external reconfiguration controller and the reconfig driver
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Credit allocation in the 16 KBytes receive buffer:
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Posted    : header=58  data=897
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Non posted: header=52  data=0
+Info: QSysDE5QGen3x4If128.PCIeGen3x4If128: Completion: header=1 data=16
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.rx_st: The empty signal width should be 1 bits.  
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.rx_st: Interface must have an associated reset
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.tx_st: The empty signal width should be 1 bits.  
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.tx_st: Interface must have an associated reset
+Info: QSysDE5QGen3x4If128.XCVRCtrlGen3x4: reconfig_from_xcvr port width is 6*46 bits
+Info: QSysDE5QGen3x4If128.XCVRCtrlGen3x4: reconfig_to_xcvr port width is 6*70 bits
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.lmi must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.power_mngt must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.rx_bar_be must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.tx_cred must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.hip_pipe must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128: PCIeGen3x4If128.hip_ctrl must be exported, or connected to a matching conduit.
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.rx_st: PCIeGen3x4If128.rx_st does not have an associated reset
+Warning: QSysDE5QGen3x4If128.PCIeGen3x4If128.tx_st: PCIeGen3x4If128.tx_st does not have an associated reset
+Warning: QSysDE5QGen3x4If128.: You have exported the interface PCIeGen3x4If128.rx_st but not its associated reset interface.  Export associatedReset of PCIeGen3x4If128.rx_st
+Warning: QSysDE5QGen3x4If128.: You have exported the interface PCIeGen3x4If128.tx_st but not its associated reset interface.  Export the driver(s) of associatedReset of PCIeGen3x4If128.tx_st
+Info: QSysDE5QGen3x4If128: Generating QSysDE5QGen3x4If128 "QSysDE5QGen3x4If128" for QUARTUS_SYNTH
+Info: PCIeGen3x4If128: add_fileset_file ./altera_xcvr_functions.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/altera_xcvr_functions.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_pcs.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_pcs.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_pcs_ch.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_pcs_ch.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_pma.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_pma.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_reconfig_bundle_to_xcvr.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_reconfig_bundle_to_xcvr.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_reconfig_bundle_to_ip.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_reconfig_bundle_to_ip.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_reconfig_bundle_merger.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_reconfig_bundle_merger.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_rx_pma.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_rx_pma.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_tx_pma.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_tx_pma.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_tx_pma_ch.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_tx_pma_ch.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_h.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_h.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_avmm_csr.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_avmm_csr.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_avmm_dcd.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_avmm_dcd.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_avmm.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_avmm.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_data_adapter.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_data_adapter.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_native.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_native.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_plls.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_plls.sv
+Info: PCIeGen3x4If128: add_fileset_file ./alt_xcvr_resync.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_resync.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_10g_rx_pcs_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_10g_rx_pcs_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_10g_tx_pcs_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_10g_tx_pcs_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_8g_rx_pcs_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_8g_rx_pcs_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_8g_tx_pcs_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_8g_tx_pcs_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_8g_pcs_aggregate_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_8g_pcs_aggregate_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_common_pcs_pma_interface_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_common_pcs_pma_interface_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_common_pld_pcs_interface_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_common_pld_pcs_interface_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_pipe_gen1_2_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_pipe_gen1_2_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_pipe_gen3_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_pipe_gen3_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_rx_pcs_pma_interface_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_rx_pcs_pma_interface_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_rx_pld_pcs_interface_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_rx_pld_pcs_interface_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_tx_pcs_pma_interface_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_tx_pcs_pma_interface_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_hssi_tx_pld_pcs_interface_rbc.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/rbc/sv_hssi_tx_pld_pcs_interface_rbc.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_emsip_adapter.sv SYSTEM_VERILOG PATH ../../altera_pcie_pipe/sv/sv_xcvr_emsip_adapter.sv
+Info: PCIeGen3x4If128: add_fileset_file ./sv_xcvr_pipe_native.sv SYSTEM_VERILOG PATH ../../altera_pcie_pipe/sv/sv_xcvr_pipe_native.sv
+Info: PCIeGen3x4If128: "QSysDE5QGen3x4If128" instantiated altera_pcie_sv_hip_ast "PCIeGen3x4If128"
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_xcvr_functions.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/altera_xcvr_functions.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_h.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_xcvr_h.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_resync.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_resync.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_h.sv SYSTEM_VERILOG PATH .//alt_xcvr_reconfig_h.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_dfe_cal_sweep_h.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/sv_xcvr_dfe_cal_sweep_h.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig.sv SYSTEM_VERILOG PATH .//alt_xcvr_reconfig.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_sv.sv SYSTEM_VERILOG PATH .//alt_xcvr_reconfig_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cal_seq.sv SYSTEM_VERILOG PATH .//alt_xcvr_reconfig_cal_seq.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xreconf_cif.sv SYSTEM_VERILOG PATH .//alt_xreconf_cif.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xreconf_uif.sv SYSTEM_VERILOG PATH .//alt_xreconf_uif.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xreconf_basic_acq.sv SYSTEM_VERILOG PATH .//alt_xreconf_basic_acq.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_analog.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_analog/alt_xcvr_reconfig_analog.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_analog_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_analog/alt_xcvr_reconfig_analog_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xreconf_analog_datactrl.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_analog/alt_xreconf_analog_datactrl.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xreconf_analog_rmw.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_analog/alt_xreconf_analog_rmw.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xreconf_analog_ctrlsm.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_analog/alt_xreconf_analog_ctrlsm.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_offset_cancellation.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_offset_cancellation/alt_xcvr_reconfig_offset_cancellation.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_offset_cancellation_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_offset_cancellation/alt_xcvr_reconfig_offset_cancellation_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_eyemon.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_eyemon/alt_xcvr_reconfig_eyemon.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_eyemon_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_eyemon/alt_xcvr_reconfig_eyemon_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_eyemon_ctrl_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_eyemon/alt_xcvr_reconfig_eyemon_ctrl_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_eyemon_ber_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_eyemon/alt_xcvr_reconfig_eyemon_ber_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./ber_reader_dcfifo.v VERILOG PATH ../alt_xcvr_reconfig_eyemon/ber_reader_dcfifo.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./step_to_mon_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_eyemon/step_to_mon_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./mon_to_step_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_eyemon/mon_to_step_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_reg_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_reg_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_cal_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_cal_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_cal_sweep_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_cal_sweep_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_cal_sweep_datapath_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_cal_sweep_datapath_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_oc_cal_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_oc_cal_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_pi_phase_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_pi_phase_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_step_to_mon_en_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_step_to_mon_en_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_adapt_tap_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_adapt_tap_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_ctrl_mux_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_ctrl_mux_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_local_reset_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_local_reset_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_cal_sim_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_cal_sim_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dfe_adapt_tap_sim_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dfe/alt_xcvr_reconfig_dfe_adapt_tap_sim_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_adce.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_adce/alt_xcvr_reconfig_adce.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_adce_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_adce/alt_xcvr_reconfig_adce_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_adce_datactrl_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_adce/alt_xcvr_reconfig_adce_datactrl_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_sv.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_sv.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_cal.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_cal.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_control.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_control.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_datapath.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_datapath.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_pll_reset.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_pll_reset.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_eye_width.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_eye_width.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_align_clk.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_align_clk.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_get_sum.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_get_sum.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_dcd_cal_sim_model.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_dcd/alt_xcvr_reconfig_dcd_cal_sim_model.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_mif.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_mif/alt_xcvr_reconfig_mif.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_reconfig_mif.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_mif/sv_xcvr_reconfig_mif.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_reconfig_mif_ctrl.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_mif/sv_xcvr_reconfig_mif_ctrl.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_reconfig_mif_avmm.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_mif/sv_xcvr_reconfig_mif_avmm.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_pll.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_pll/alt_xcvr_reconfig_pll.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_reconfig_pll.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_pll/sv_xcvr_reconfig_pll.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_reconfig_pll_ctrl.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_pll/sv_xcvr_reconfig_pll_ctrl.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_soc.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_soc/alt_xcvr_reconfig_soc.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_ram.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_soc/alt_xcvr_reconfig_cpu_ram.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_ram.hex OTHER PATH ../alt_xcvr_reconfig_soc/software/alt_xcvr_reconfig/mem_init/alt_xcvr_reconfig_cpu_ram.hex
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_direct.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_direct/alt_xcvr_reconfig_direct.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xrbasic_l2p_addr.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/sv_xrbasic_l2p_addr.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xrbasic_l2p_ch.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/sv_xrbasic_l2p_ch.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xrbasic_l2p_rom.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/sv_xrbasic_l2p_rom.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xrbasic_lif_csr.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/sv_xrbasic_lif_csr.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xrbasic_lif.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/sv_xrbasic_lif.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_xcvr_reconfig_basic.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/sv_xcvr_reconfig_basic.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_arbiter_acq.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/alt_arbiter_acq.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_basic.sv SYSTEM_VERILOG PATH ../alt_xcvr_reconfig_basic/alt_xcvr_reconfig_basic.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig.sdc OTHER PATH .//alt_xcvr_reconfig.sdc
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_arbiter.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_arbiter.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_m2s.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_m2s.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_wait_generate.v VERILOG PATH ../../altera_xcvr_generic/ctrl/altera_wait_generate.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_csr_selector.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_csr_selector.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./sv_reconfig_bundle_to_basic.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/sv/sv_reconfig_bundle_to_basic.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/alt_xcvr_reconfig_cpu.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_reconfig_cpu_test_bench.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_test_bench.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_b.mif OTHER PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_b.mif
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_a.mif OTHER PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_a.mif
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_reconfig_cpu.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_irq_mapper.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_irq_mapper.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_reset_controller.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/altera_reset_controller.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_reset_synchronizer.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/altera_reset_synchronizer.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_reset_controller.sdc OTHER PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/altera_reset_controller.sdc
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_merlin_master_translator.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/altera_merlin_master_translator.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_merlin_slave_translator.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/altera_merlin_slave_translator.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_merlin_master_agent.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/altera_merlin_master_agent.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_merlin_slave_agent.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/altera_merlin_slave_agent.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_merlin_burst_uncompressor.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/altera_merlin_burst_uncompressor.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_avalon_sc_fifo.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/altera_avalon_sc_fifo.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_router.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_router_001.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router_001.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_router_002.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router_002.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_router_003.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router_003.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux_001.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux_001.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./altera_merlin_arbitrator.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/altera_merlin_arbitrator.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux_001.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux_001.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux_001.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux_001.sv
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_avalon_st_adapter.v VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_avalon_st_adapter.v
+Info: XCVRCtrlGen3x4: add_fileset_file ./alt_xcvr_reconfig_cpu_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv SYSTEM_VERILOG PATH ../../../../../../../../tmp/alt7975_4567974065786568619.dir/0007_XCVRCtrlGen3x4_gen/QUARTUS_SYNTH/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+Info: XCVRCtrlGen3x4: "QSysDE5QGen3x4If128" instantiated alt_xcvr_reconfig "XCVRCtrlGen3x4"
+Info: Reusing file /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/synthesis/submodules/altera_xcvr_functions.sv
+Info: Reusing file /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/synthesis/submodules/sv_xcvr_h.sv
+Info: Reusing file /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/synthesis/submodules/alt_xcvr_resync.sv
+Warning: Overwriting different file /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/synthesis/submodules/plain_files.txt
+Info: XCVRDrvGen3x4: "QSysDE5QGen3x4If128" instantiated altera_pcie_reconfig_driver "XCVRDrvGen3x4"
+Info: Reusing file /home/salehs/Desktop/brightening_experiments/riffa_2.2.2/source/fpga/altera/de5/DE5QGen3x4If128/ip/QSysDE5QGen3x4If128/synthesis/submodules/alt_xcvr_reconfig_h.sv
+Info: QSysDE5QGen3x4If128: Done "QSysDE5QGen3x4If128" with 4 modules, 157 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

@@ -1,0 +1,1 @@
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) QSysDE5QGen3x4If128/QSysDE5QGen3x4If128.qip]

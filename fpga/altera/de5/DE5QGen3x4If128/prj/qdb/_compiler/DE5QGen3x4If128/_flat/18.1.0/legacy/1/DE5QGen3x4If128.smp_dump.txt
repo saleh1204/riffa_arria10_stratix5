@@ -1,9 +1,0 @@
-
-State Machine - sState
-Name sState.01 sState.11 sState.10 sState.00 
-sState.00 0 0 0 0 
-sState.10 0 0 1 1 
-sState.11 0 1 0 1 
-sState.01 1 0 0 1 
-
-State Machine - Summary

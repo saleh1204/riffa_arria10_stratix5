@@ -1,0 +1,200 @@
+
+
+
+TIMINGDATA
+
+ARCDATA
+pos_PCIE_REFCLK__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[0].inst_sv_pcs_ch|sv_hssi_rx_pld_pcs_interface_rbc:inst_sv_hssi_rx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.619");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.619");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_PCIE_REFCLK__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[0].inst_sv_pcs_ch|sv_hssi_tx_pld_pcs_interface_rbc:inst_sv_hssi_tx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.213");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.213");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_PCIE_REFCLK__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[1].inst_sv_pcs_ch|sv_hssi_rx_pld_pcs_interface_rbc:inst_sv_hssi_rx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("2.955");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("2.955");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_PCIE_REFCLK__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[1].inst_sv_pcs_ch|sv_hssi_tx_pld_pcs_interface_rbc:inst_sv_hssi_tx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("2.750");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("2.750");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_PCIE_REFCLK__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[2].inst_sv_pcs_ch|sv_hssi_rx_pld_pcs_interface_rbc:inst_sv_hssi_rx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("2.908");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("2.908");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_PCIE_REFCLK__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[2].inst_sv_pcs_ch|sv_hssi_tx_pld_pcs_interface_rbc:inst_sv_hssi_tx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("2.953");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("2.953");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_PCIE_REFCLK__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[3].inst_sv_pcs_ch|sv_hssi_rx_pld_pcs_interface_rbc:inst_sv_hssi_rx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.050");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.050");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_PCIE_REFCLK__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[3].inst_sv_pcs_ch|sv_hssi_tx_pld_pcs_interface_rbc:inst_sv_hssi_tx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.348");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.348");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_pcie_system_inst|pciegen3x4if128|altpcie_hip_256_pipen1b|stratixv_hssi_gen3_pcie_hip|observablecoreclkdiv__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[0].inst_sv_pcs_ch|sv_hssi_rx_pld_pcs_interface_rbc:inst_sv_hssi_rx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.559");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.559");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_pcie_system_inst|pciegen3x4if128|altpcie_hip_256_pipen1b|stratixv_hssi_gen3_pcie_hip|observablecoreclkdiv__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[0].inst_sv_pcs_ch|sv_hssi_tx_pld_pcs_interface_rbc:inst_sv_hssi_tx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.522");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.522");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_pcie_system_inst|pciegen3x4if128|altpcie_hip_256_pipen1b|stratixv_hssi_gen3_pcie_hip|observablecoreclkdiv__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[1].inst_sv_pcs_ch|sv_hssi_rx_pld_pcs_interface_rbc:inst_sv_hssi_rx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.291");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.291");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_pcie_system_inst|pciegen3x4if128|altpcie_hip_256_pipen1b|stratixv_hssi_gen3_pcie_hip|observablecoreclkdiv__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[1].inst_sv_pcs_ch|sv_hssi_tx_pld_pcs_interface_rbc:inst_sv_hssi_tx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.098");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.098");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_pcie_system_inst|pciegen3x4if128|altpcie_hip_256_pipen1b|stratixv_hssi_gen3_pcie_hip|observablecoreclkdiv__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[2].inst_sv_pcs_ch|sv_hssi_rx_pld_pcs_interface_rbc:inst_sv_hssi_rx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.864");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.864");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_pcie_system_inst|pciegen3x4if128|altpcie_hip_256_pipen1b|stratixv_hssi_gen3_pcie_hip|observablecoreclkdiv__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[2].inst_sv_pcs_ch|sv_hssi_tx_pld_pcs_interface_rbc:inst_sv_hssi_tx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.321");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.321");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_pcie_system_inst|pciegen3x4if128|altpcie_hip_256_pipen1b|stratixv_hssi_gen3_pcie_hip|observablecoreclkdiv__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[3].inst_sv_pcs_ch|sv_hssi_rx_pld_pcs_interface_rbc:inst_sv_hssi_rx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.961");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.961");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_pcie_system_inst|pciegen3x4if128|altpcie_hip_256_pipen1b|stratixv_hssi_gen3_pcie_hip|observablecoreclkdiv__QSysDE5QGen3x4If128:pcie_system_inst|altpcie_sv_hip_ast_hwtcl:pciegen3x4if128|altpcie_hip_256_pipen1b:altpcie_hip_256_pipen1b|sv_xcvr_pipe_native:g_xcvr.sv_xcvr_pipe_native|sv_xcvr_native:inst_sv_xcvr_native|sv_pcs:inst_sv_pcs|sv_pcs_ch:ch[3].inst_sv_pcs_ch|sv_hssi_tx_pld_pcs_interface_rbc:inst_sv_hssi_tx_pld_pcs_interface|asynchdatain__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.312");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.312");
+}
+
+ENDARCDATA
+
+ENDTIMINGDATA
+
+ENDMODELDATA

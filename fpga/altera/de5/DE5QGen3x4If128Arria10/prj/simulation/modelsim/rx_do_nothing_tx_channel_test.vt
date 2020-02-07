@@ -1,0 +1,167 @@
+`timescale 1ns/10ps
+module rx_do_nothing_tx_channel_test; 
+
+	localparam len=20; // number of words (32-bit) in the input file 
+	localparam input_test_file = "input_file.bin";
+	localparam output_test_file = "output_file.bin";
+	reg clk, reset; 
+	wire chnl_rx_clk, chnl_rx_ack, chnl_rx_data_ren; 
+	reg chnl_rx, chnl_rx_last, chnl_rx_data_valid; 
+	reg [31:0] chnl_rx_len; 
+	reg [30:0] chnl_rx_off; 
+	reg [127:0] chnl_rx_data; 
+	reg [127:0] expected_output; 
+
+	wire [127:0] chnl_tx_data; 
+	wire chnl_tx_clk, chnl_tx, chnl_tx_last, chnl_tx_data_valid; 
+	wire [31:0] chnl_tx_len; 
+	wire [30:0] chnl_tx_off; 
+	reg chnl_tx_data_ren; 
+	reg chnl_tx_ack; 	
+	integer in, i, out, j, k, l; 
+	integer test_counter; 
+	integer test_passed; 
+    rx_do_nothing_tx_channel c1
+		(
+		.CLK(clk), 
+		.RST(reset), 
+		// Rx interface
+		.CHNL_RX_CLK(chnl_rx_clk), 
+		.CHNL_RX(chnl_rx), 
+		.CHNL_RX_ACK(chnl_rx_ack), 
+		.CHNL_RX_LAST(chnl_rx_last), 
+		.CHNL_RX_LEN(chnl_rx_len), 
+		.CHNL_RX_OFF(chnl_rx_off), 
+		.CHNL_RX_DATA(chnl_rx_data), 
+		.CHNL_RX_DATA_VALID(chnl_rx_data_valid), 
+		.CHNL_RX_DATA_REN(chnl_rx_data_ren), 
+		// Tx interface
+		.CHNL_TX_CLK(chnl_tx_clk), 
+		.CHNL_TX(chnl_tx), 
+		.CHNL_TX_ACK(chnl_tx_ack), 
+		.CHNL_TX_LAST(chnl_tx_last), 
+		.CHNL_TX_LEN(chnl_tx_len), 
+		.CHNL_TX_OFF(chnl_tx_off), 
+		.CHNL_TX_DATA(chnl_tx_data), 
+		.CHNL_TX_DATA_VALID(chnl_tx_data_valid), 
+		.CHNL_TX_DATA_REN(chnl_tx_data_ren)
+		); 
+	initial begin
+		$dumpfile("channel_simulation.vcd"); 
+		$dumpvars(0, rx_do_nothing_tx_channel_test); 		
+		$display("Running testbench. \t Opening Files: %s %s", input_test_file, output_test_file); 
+		in = $fopen(input_test_file, "rb"); 
+		if (!in)begin 
+			$display("File Open Error! %s", input_test_file); 
+			$stop; 
+		end
+		out = $fopen(output_test_file, "rb"); 
+		if (!out)begin 
+			$display("File Open Error! %s", output_test_file); 
+			$stop; 
+		end
+		test_counter = 0; 
+		test_passed = 0; 
+		clk = 1'b1;
+		reset = 1'b1; 
+		// RX Signals
+		chnl_rx = 'b0;
+        chnl_rx_last = 'b1; 
+		chnl_rx_data_valid = 'b0;
+        chnl_rx_len = 'h0; 
+		chnl_rx_off = 'h0;
+        chnl_rx_data = 'h0; 
+		@(negedge clk) 
+		reset = 1'b0;
+	end
+	always begin
+		#10 clk = ~clk;
+	end
+
+    always@(negedge clk) begin
+		// TX Signals
+        if (chnl_tx) begin
+            chnl_tx_ack <= 1'b1; 
+		end
+        else begin
+            chnl_tx_ack <= 1'b0;
+        end
+		
+		// chnl_tx_data_ren
+		if (chnl_tx_data_valid) begin
+			chnl_tx_data_ren <= 1'b1; 
+		end
+		else begin 
+			chnl_tx_data_ren <= 1'b0;
+		end
+    end
+
+
+	
+	always @(negedge clk) begin
+		@(posedge chnl_tx_data_valid) 
+		$display("Current Time: ", $time);
+		expected_output = 'd0;
+		j = $fread(expected_output, out);
+		if (j == 0) begin
+			$display("Test Passed %0d out of %0d", test_passed, test_counter);
+			#200
+			$stop;
+		end
+		@(negedge chnl_tx_data_valid)
+		if (expected_output !== 32'dx) begin
+			if (expected_output == chnl_tx_data) begin
+				$display("Test #%2d: Pass", test_counter);
+				test_passed = test_passed + 1;
+			end
+			else begin
+				$display("Test #%2d: Fail", test_counter);
+				#120
+				$stop;
+			end
+			$display("\tExpected Output: %x", expected_output);
+			test_counter = test_counter + 1;
+		end		
+	end
+    initial begin
+        @(negedge clk) 
+		@(negedge clk) 
+		@(negedge clk) 
+        chnl_rx = 'b1; 
+		chnl_rx_len = len;
+		
+		for (k=0; k<len;) begin
+			if (k==0) begin
+				@(negedge clk) 
+				k = k + 4;
+				chnl_rx_data_valid = 1'b1; 
+				chnl_rx_data = 'd0;
+				i = $fread(chnl_rx_data, in); 
+			end
+			else begin
+				@(negedge clk) 
+				if (chnl_rx_data_ren == 1'b1) begin
+					k = k + 4;
+					chnl_rx_data_valid = 1'b1; 
+					chnl_rx_data = 'd0;
+					i = $fread(chnl_rx_data, in); 
+					if (i == 0) begin
+						k = len;
+						chnl_rx_data_valid = 1'b0;
+						chnl_rx = 'b0; 
+					end
+				end
+			end
+		end
+		@(negedge clk) 
+		chnl_rx_data_valid = 1'b0;
+		chnl_rx = 'b0; 
+        @(negedge chnl_tx)
+		#200
+            $display("Finished @ ", $time);
+			$display("Test Passed %0d out of %0d", test_passed, test_counter);
+            $stop;
+    end
+
+
+endmodule

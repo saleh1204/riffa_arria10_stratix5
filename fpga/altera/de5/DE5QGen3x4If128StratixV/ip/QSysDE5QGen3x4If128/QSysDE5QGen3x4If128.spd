@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_h.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRDrvGen3x4" />
+ <file
+   path="simulation/submodules/altpcie_reconfig_driver.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRDrvGen3x4" />
+ <file
+   path="simulation/submodules/altera_xcvr_functions.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/altera_xcvr_functions.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/sv_xcvr_h.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/sv_xcvr_h.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_resync.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_resync.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_h.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_h.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/sv_xcvr_dfe_cal_sweep_h.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/sv_xcvr_dfe_cal_sweep_h.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cal_seq.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_cal_seq.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xreconf_cif.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xreconf_cif.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xreconf_uif.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xreconf_uif.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xreconf_basic_acq.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xreconf_basic_acq.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_analog.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_analog.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_analog_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_analog_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xreconf_analog_datactrl.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xreconf_analog_datactrl.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xreconf_analog_rmw.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xreconf_analog_rmw.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xreconf_analog_ctrlsm.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xreconf_analog_ctrlsm.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_offset_cancellation.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_offset_cancellation.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_offset_cancellation_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_offset_cancellation_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_eyemon.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_eyemon.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_eyemon_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_eyemon_ctrl_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_eyemon_ber_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/ber_reader_dcfifo.v"
+   type="VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/step_to_mon_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mon_to_step_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_eyemon_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_eyemon_ctrl_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_eyemon_ber_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/ber_reader_dcfifo.v"
+   type="VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/step_to_mon_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/mon_to_step_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dfe.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dfe.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dfe_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dfe_reg_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dfe_cal_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dfe_cal_sweep_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dfe_cal_sweep_datapath_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dfe_oc_cal_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dfe_pi_phase_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dfe_step_to_mon_en_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dfe_adapt_tap_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dfe_ctrl_mux_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dfe_local_reset_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dfe_cal_sim_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dfe_adapt_tap_sim_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dfe_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dfe_reg_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dfe_cal_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dfe_cal_sweep_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dfe_cal_sweep_datapath_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dfe_oc_cal_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dfe_pi_phase_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dfe_step_to_mon_en_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dfe_adapt_tap_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dfe_ctrl_mux_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dfe_local_reset_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dfe_cal_sim_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dfe_adapt_tap_sim_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_adce.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_adce.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_adce_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_adce_datactrl_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_adce_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_adce_datactrl_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dcd.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dcd.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dcd_sv.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dcd_cal.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dcd_control.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dcd_datapath.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dcd_pll_reset.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dcd_eye_width.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dcd_align_clk.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dcd_get_sum.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_dcd_cal_sim_model.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dcd_sv.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dcd_cal.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dcd_control.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dcd_datapath.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dcd_pll_reset.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dcd_eye_width.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dcd_align_clk.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dcd_get_sum.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_dcd_cal_sim_model.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_mif.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_mif.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/sv_xcvr_reconfig_mif.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/sv_xcvr_reconfig_mif_ctrl.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/sv_xcvr_reconfig_mif_avmm.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/sv_xcvr_reconfig_mif.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/sv_xcvr_reconfig_mif_ctrl.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/sv_xcvr_reconfig_mif_avmm.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_pll.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_pll.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/sv_xcvr_reconfig_pll.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/sv_xcvr_reconfig_pll_ctrl.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/sv_xcvr_reconfig_pll.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/sv_xcvr_reconfig_pll_ctrl.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_soc.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_ram.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_ram.hex"
+   type="OTHER"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_direct.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/sv_xrbasic_l2p_addr.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/sv_xrbasic_l2p_ch.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/sv_xrbasic_l2p_rom.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/sv_xrbasic_lif_csr.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/sv_xrbasic_lif.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/sv_xcvr_reconfig_basic.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_arbiter_acq.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_basic.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/sv_xrbasic_l2p_addr.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/sv_xrbasic_l2p_ch.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/sv_xrbasic_l2p_rom.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/sv_xrbasic_lif_csr.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/sv_xrbasic_lif.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/sv_xcvr_reconfig_basic.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_arbiter_acq.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_reconfig_basic.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_arbiter.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_m2s.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/altera_wait_generate.v"
+   type="VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_csr_selector.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_arbiter.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_m2s.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/altera_wait_generate.v"
+   type="VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/alt_xcvr_csr_selector.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/sv_reconfig_bundle_to_basic.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor/sv_reconfig_bundle_to_basic.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="XCVRCtrlGen3x4"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu.v"
+   type="VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu.v"
+   type="VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_nios2_waves.do"
+   type="OTHER"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_a.dat"
+   type="OTHER"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_a.hex"
+   type="OTHER"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_a.mif"
+   type="OTHER"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_b.dat"
+   type="OTHER"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_b.hex"
+   type="OTHER"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_rf_ram_b.mif"
+   type="OTHER"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_reconfig_cpu_test_bench.v"
+   type="VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0.v"
+   type="VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_irq_mapper.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/altera_reset_controller.v"
+   type="VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/altera_reset_synchronizer.v"
+   type="VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/altera_reset_controller.sdc"
+   type="OTHER"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/altera_merlin_master_translator.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/altera_merlin_slave_translator.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/altera_merlin_master_agent.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/altera_merlin_slave_agent.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/altera_merlin_burst_uncompressor.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/altera_avalon_sc_fifo.v"
+   type="VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router_001.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router_002.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_router_003.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux_001.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux_001.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux_001.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_avalon_st_adapter.v"
+   type="VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/alt_xcvr_reconfig_cpu_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv"
+   type="SYSTEM_VERILOG"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/plain_files.txt"
+   type="OTHER"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/mentor_files.txt"
+   type="OTHER"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/cadence_files.txt"
+   type="OTHER"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/synopsys_files.txt"
+   type="OTHER"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/aldec_files.txt"
+   type="OTHER"
+   library="XCVRCtrlGen3x4" />
+ <file
+   path="simulation/submodules/altpcie_sv_hip_ast_hwtcl.v"
+   type="VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcie_hip_256_pipen1b.v"
+   type="VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcie_rs_serdes.v"
+   type="VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcie_rs_hip.v"
+   type="VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcie_scfifo.v"
+   type="VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcie_sv_scfifo_ext.v"
+   type="VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcie_scfifo_sv.v"
+   type="VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcie_sv_gbfifo.v"
+   type="VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcie_tlp_inspector.v"
+   type="VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcie_tlp_inspector_trigger.v"
+   type="VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcie_hip_eq_dprio.v"
+   type="VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcie_hip_eq_bypass_ph3.v"
+   type="VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcietb_bfm_pipe_8to32.v"
+   type="VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcie_inspector.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcie_monitor_sv_dlhip_sim.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcie_tlp_inspector_monitor.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altpcie_tlp_inspector_cseb.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/altera_xcvr_functions.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_pcs.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_pcs_ch.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_pma.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_reconfig_bundle_to_xcvr.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_reconfig_bundle_to_ip.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_reconfig_bundle_merger.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_rx_pma.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_tx_pma.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_tx_pma_ch.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_xcvr_h.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_xcvr_avmm_csr.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_xcvr_avmm_dcd.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_xcvr_avmm.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_xcvr_data_adapter.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_xcvr_native.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_xcvr_plls.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/alt_xcvr_resync.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_hssi_10g_rx_pcs_rbc.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_hssi_10g_tx_pcs_rbc.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_hssi_8g_rx_pcs_rbc.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_hssi_8g_tx_pcs_rbc.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_hssi_8g_pcs_aggregate_rbc.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_hssi_common_pcs_pma_interface_rbc.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_hssi_common_pld_pcs_interface_rbc.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_hssi_pipe_gen1_2_rbc.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_hssi_pipe_gen3_rbc.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_hssi_rx_pcs_pma_interface_rbc.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_hssi_rx_pld_pcs_interface_rbc.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_hssi_tx_pcs_pma_interface_rbc.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_hssi_tx_pld_pcs_interface_rbc.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_xcvr_emsip_adapter.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/sv_xcvr_pipe_native.sv"
+   type="SYSTEM_VERILOG"
+   library="PCIeGen3x4If128" />
+ <file
+   path="simulation/submodules/plain_files.txt"
+   type="OTHER"
+   library="PCIeGen3x4If128" />
+ <file path="simulation/QSysDE5QGen3x4If128.v" type="VERILOG" />
+ <topLevel name="QSysDE5QGen3x4If128" />
+ <deviceFamily name="stratixv" />
+</simPackage>

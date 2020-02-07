@@ -1,0 +1,30 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst QSysDE5QGen3x4If128.XCVRCtrlGen3x4 -pg 1 -lvl 2 -y 410
+preplace inst QSysDE5QGen3x4If128.XCVRDrvGen3x4 -pg 1 -lvl 1 -y 470
+preplace inst QSysDE5QGen3x4If128 -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst QSysDE5QGen3x4If128.PCIeGen3x4If128 -pg 1 -lvl 2 -y 30
+preplace netloc POINT_TO_POINT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)XCVRCtrlGen3x4.reconfig_from_xcvr,(SLAVE)PCIeGen3x4If128.reconfig_from_xcvr) 1 1 1 410
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)QSysDE5QGen3x4If128.reconfigrefclk,(SLAVE)XCVRDrvGen3x4.reconfig_xcvr_clk) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)PCIeGen3x4If128.reconfig_to_xcvr,(SLAVE)XCVRCtrlGen3x4.reconfig_to_xcvr) 1 1 1 430
+preplace netloc POINT_TO_POINT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)XCVRCtrlGen3x4.reconfig_busy,(SLAVE)XCVRDrvGen3x4.reconfig_busy) 1 0 2 150 460 N
+preplace netloc POINT_TO_POINT<net_container>QSysDE5QGen3x4If128</net_container>(MASTER)XCVRDrvGen3x4.reconfig_mgmt,(SLAVE)XCVRCtrlGen3x4.reconfig_mgmt) 1 1 1 390
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)QSysDE5QGen3x4If128.drvstat,(SLAVE)XCVRDrvGen3x4.hip_status_drv) 1 0 1 NJ
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)QSysDE5QGen3x4If128.pciestat,(SLAVE)PCIeGen3x4If128.hip_status) 1 0 2 NJ 160 NJ
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)QSysDE5QGen3x4If128.pciehip,(SLAVE)PCIeGen3x4If128.hip_rst) 1 0 2 NJ 120 NJ
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(MASTER)QSysDE5QGen3x4If128.rx_st,(MASTER)PCIeGen3x4If128.rx_st) 1 2 1 NJ
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)QSysDE5QGen3x4If128.reconfigrst,(SLAVE)XCVRDrvGen3x4.reconfig_xcvr_rst) 1 0 1 NJ
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)PCIeGen3x4If128.pld_clk,(SLAVE)QSysDE5QGen3x4If128.pciepld) 1 0 2 NJ 240 NJ
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)PCIeGen3x4If128.config_tl,(SLAVE)QSysDE5QGen3x4If128.pciecfg) 1 0 2 NJ 40 NJ
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)QSysDE5QGen3x4If128.mgmtclk,(SLAVE)XCVRCtrlGen3x4.mgmt_clk_clk) 1 0 2 NJ 400 NJ
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)PCIeGen3x4If128.refclk,(SLAVE)QSysDE5QGen3x4If128.pcierefclk) 1 0 2 NJ 320 NJ
+preplace netloc POINT_TO_POINT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)PCIeGen3x4If128.hip_currentspeed,(SLAVE)XCVRDrvGen3x4.hip_currentspeed) 1 0 2 130 440 350
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)QSysDE5QGen3x4If128.reconfigpldclk,(SLAVE)XCVRDrvGen3x4.pld_clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)PCIeGen3x4If128.int_msi,(SLAVE)QSysDE5QGen3x4If128.pciemsi) 1 0 2 NJ 180 NJ
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)XCVRCtrlGen3x4.mgmt_rst_reset,(SLAVE)QSysDE5QGen3x4If128.mgmtrst) 1 0 2 NJ 420 NJ
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)PCIeGen3x4If128.npor,(SLAVE)QSysDE5QGen3x4If128.pcienpor) 1 0 2 NJ 220 NJ
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(MASTER)QSysDE5QGen3x4If128.pciecoreclk,(MASTER)PCIeGen3x4If128.coreclkout_hip) 1 2 1 NJ
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)QSysDE5QGen3x4If128.tx_st,(SLAVE)PCIeGen3x4If128.tx_st) 1 0 2 NJ 380 NJ
+preplace netloc EXPORT<net_container>QSysDE5QGen3x4If128</net_container>(SLAVE)QSysDE5QGen3x4If128.pcieserial,(SLAVE)PCIeGen3x4If128.hip_serial) 1 0 2 NJ 140 NJ
+levelinfo -pg 1 0 100 720
+levelinfo -hier QSysDE5QGen3x4If128 110 180 460 620
